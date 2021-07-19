@@ -1,0 +1,9 @@
+## Interface: 90100
+## Title: AdiBags - Shadowlands Crafting-Cooking
+## Version: 1.0
+## Author: Bearesquishy
+## DefaultState: enabled
+## Dependancies: AdiBags
+
+database.lua
+core.lua
