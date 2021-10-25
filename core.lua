@@ -30,6 +30,15 @@ local function tooltipInit()
 	return tip
 end
 
+-- Check for existing filter
+local function CheckFilter(FilterExists)
+	for i, filter in AdiBags:IterateFilters() do
+		if filter == FilterExists then
+			return false
+		end
+	end
+end
+
 -- Create Filters
 local function CreateFilter(name, uiName, uiDesc, title, items)
 
@@ -37,7 +46,7 @@ local function CreateFilter(name, uiName, uiDesc, title, items)
 	local filter = AdiBags:RegisterFilter(uiName, 98, "ABEvent-1.0")
 
 	filter.uiName = uiName
-	filter.uiDesc = uiDesc .. "Version:" .. GetAddOnMetadata(addonName, "Version");
+	filter.uiDesc = uiDesc .. "          Version: " .. GetAddOnMetadata(addonName, "Version");
 	filter.items = items
 
 	function filter:OnInitialize()
@@ -82,21 +91,12 @@ local function AllFilters(db)
 
 		-- Does filter already exist?
 		local FilterExists = CheckFilter(group.uiName)
-		print(FilterExists)
-
-
-		-- name = Name of table
-		-- group.uiName = Name to use in filter listing
-		-- group.uiDesc = Description to show in filter listing
-		-- group.items = table of items to sort
-		CreateFilter(name, group.uiName, group.uiDesc, group.title, group.items)
-    end
-end
-
-local function CheckFilter(FilterExists)
-	for i, filter in AdiBags:IterateFilters() do
-		if filter == FilterExists then
-			return true
+		if FilterExists = false then
+			-- name = Name of table
+			-- group.uiName = Name to use in filter listing
+			-- group.uiDesc = Description to show in filter listing
+			-- group.items = table of items to sort
+			CreateFilter(name, group.uiName, group.uiDesc, group.title, group.items)
 		end
 	end
 end
