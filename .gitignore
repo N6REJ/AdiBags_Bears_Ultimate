@@ -1,3 +1,9 @@
+# IDE's
+.idea
+.vs
+.vscode
+
+
 # Compiled Lua sources
 luac.out
 
