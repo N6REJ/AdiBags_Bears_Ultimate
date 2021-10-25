@@ -43,7 +43,7 @@ end
 local function CreateFilter(name, uiName, uiDesc, title, items)
 
 	-- Register Filter with adibags
-	local filter = AdiBags:RegisterFilter(uiName, 98, "ABEvent-1.0")
+	local filter = AdiBags:RegisterFilter(uiName, 10, "ABEvent-1.0")
 
 	filter.uiName = uiName
 	filter.uiDesc = uiDesc .. "          Version: " .. GetAddOnMetadata(addonName, "Version");
@@ -91,7 +91,7 @@ local function AllFilters(db)
 
 		-- Does filter already exist?
 		local FilterExists = CheckFilter(group.uiName)
-		if FilterExists = false then
+		if FilterExists == false then
 			-- name = Name of table
 			-- group.uiName = Name to use in filter listing
 			-- group.uiDesc = Description to show in filter listing
