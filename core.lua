@@ -9,7 +9,7 @@ local addonName, addonTable, addon = ...
 local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
 
 -- Debug tools
---LoadAddOn("ViragDevTool")
+LoadAddOn("ViragDevTool")
 --ViragDevTool:ViragDevTool_AddData(addonTable)
 
 local db = addonTable.db
@@ -31,9 +31,13 @@ local function tooltipInit()
 end
 
 -- Check for existing filter
-local function CheckFilter(FilterExists)
+local function CheckFilter(FilterName)
 	for i, filter in AdiBags:IterateFilters() do
-		if filter == FilterExists then
+		
+-- debug
+ViragDevTool:ViragDevTool_AddData(filter)
+
+		if filter.filterName == FilterName then
 			return false
 		end
 	end
