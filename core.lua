@@ -1,16 +1,12 @@
--- AdiBags_Shadowlands_Fishing
+-- AdiBags_Shadowlands_Cooking
 -- Created by N6REJ character is Bearesquishy - dalaran please credit whenever.
--- Source on GitHub: https://github.com/N6REJ/Adibags_Shadowlands_Fishing
+-- Source on GitHub: https://github.com/N6REJ/Adibags_Shadowlands_Cooking
 
 
 local addonName, addonTable, addon = ...
 
 -- Get reference to AdiBags addon
 local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
-
--- Debug tools
---LoadAddOn("ViragDevTool")
---ViragDevTool:ViragDevTool_AddData(addonTable)
 
 local db = addonTable.db
 local MatchIDs
@@ -84,6 +80,9 @@ local function AllFilters(db)
 		-- group.items = table of items to sort
 		CreateFilter(name, group.uiName, group.uiDesc, group.title, group.items)
     end
+	for i, filter in AdiBags:IterateFilters() do
+		print(filter.uiName .. ": Cooking")
+	end
 end
 
 -- Start here
