@@ -32,14 +32,9 @@ local function CheckFilter(FilterName)
 		if filter.filterName then
 			print(filter.filterName)
 		end
-		
--- debug
---ViragDevTool:ViragDevTool_AddData(filter)
-
-		if filter.filterName == FilterName then
-			return false
-		end
 	end
+	-- debug
+ViragDevTool:ViragDevTool_AddData(filter)
 end
 
 -- Create Filters
