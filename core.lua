@@ -2,7 +2,6 @@
 -- Created by N6REJ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://github.com/N6REJ/Adibags_Shadowlands_Cooking
 
-
 local addonName, addonTable, addon = ...
 
 -- Get reference to AdiBags addon
@@ -11,7 +10,9 @@ local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
 local db = addonTable.db
 local MatchIDs
 local tooltip
-local Result = { }
+local Result = {}
+-- Debug mode switch
+local debugMode = true
 
 local function tooltipInit()
 	local tip, leftside = CreateFrame("GameTooltip"), {}
@@ -26,13 +27,28 @@ local function tooltipInit()
 	return tip
 end
 
+-- Check for existing filter
+local function CheckFilter(FilterName)
+	for i, filter in AdiBags:IterateFilters() do
+		if debugMode then
+			print(filter.uiName .. ": Cooking")
+		end
+
+		if filter.uiName == FilterName then
+			if debugMode then
+				print(filter.uiName .. " : FilterExists State")
+			end
+			return false
+		end
+	end
+end
+
 -- Create Filters
 local function CreateFilter(name, uiName, uiDesc, title, items)
-
 	-- Register Filter with adibags
 	local filter = AdiBags:RegisterFilter(uiName, 98, "ABEvent-1.0")
 	filter.uiName = uiName
-	filter.uiDesc = uiDesc .. "Version:" .. GetAddOnMetadata(addonName, "Version");
+	filter.uiDesc = uiDesc .. "Version:" .. GetAddOnMetadata(addonName, "Version")
 	filter.items = items
 
 	function filter:OnInitialize()
@@ -74,14 +90,16 @@ end
 -- Run filters
 local function AllFilters(db)
 	for name, group in pairs(db.Filters) do
+		-- Does filter already exist?
+		local FilterExists = CheckFilter(group.uiName)
+
+		if FilterExists == false then
 		-- name = Name of table
 		-- group.uiName = Name to use in filter listing
 		-- group.uiDesc = Description to show in filter listing
 		-- group.items = table of items to sort
-		CreateFilter(name, group.uiName, group.uiDesc, group.title, group.items)
-    end
-	for i, filter in AdiBags:IterateFilters() do
-		print(filter.uiName .. ": Cooking")
+		--		CreateFilter(name, group.uiName, group.uiDesc, group.title, group.items)
+		end
 	end
 end
 
