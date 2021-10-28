@@ -8,6 +8,10 @@ local addonName, addonTable, addon = ...
 -- Get reference to AdiBags addon
 local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
 
+-- Debug tools
+--LoadAddOn("ViragDevTool")
+--ViragDevTool:ViragDevTool_AddData(addonTable)
+
 local db = addonTable.db
 local MatchIDs
 local tooltip
@@ -26,25 +30,13 @@ local function tooltipInit()
 	return tip
 end
 
--- Check for existing filter
-local function CheckFilter(FilterName)
-	for i, filter in AdiBags:IterateFilters() do
-		if filter.filterName then
-			print(filter.filterName)
-		end
-	end
-	-- debug
-ViragDevTool:ViragDevTool_AddData(filter)
-end
-
 -- Create Filters
 local function CreateFilter(name, uiName, uiDesc, title, items)
 
 	-- Register Filter with adibags
-	local filter = AdiBags:RegisterFilter(uiName, 10, "ABEvent-1.0")
-
+	local filter = AdiBags:RegisterFilter(uiName, 98, "ABEvent-1.0")
 	filter.uiName = uiName
-	filter.uiDesc = uiDesc .. "          Version: " .. GetAddOnMetadata(addonName, "Version");
+	filter.uiDesc = uiDesc .. "Version:" .. GetAddOnMetadata(addonName, "Version");
 	filter.items = items
 
 	function filter:OnInitialize()
@@ -86,22 +78,13 @@ end
 -- Run filters
 local function AllFilters(db)
 	for name, group in pairs(db.Filters) do
-
-		-- Does filter already exist?
-		local FilterExists = CheckFilter(group.uiName)
-		if FilterExists == false then
-			-- name = Name of table
-			-- group.uiName = Name to use in filter listing
-			-- group.uiDesc = Description to show in filter listing
-			-- group.items = table of items to sort
-			CreateFilter(name, group.uiName, group.uiDesc, group.title, group.items)
-		end
-	end
+		-- name = Name of table
+		-- group.uiName = Name to use in filter listing
+		-- group.uiDesc = Description to show in filter listing
+		-- group.items = table of items to sort
+		CreateFilter(name, group.uiName, group.uiDesc, group.title, group.items)
+    end
 end
-
--- Debug tools
-LoadAddOn("ViragDevTool")
-ViragDevTool:ViragDevTool_AddData(db)
 
 -- Start here
 AllFilters(db)

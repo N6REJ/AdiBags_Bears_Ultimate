@@ -13,7 +13,7 @@ db.desc = "Cooking items & reagents found in Shadowlands"
 -- Filter info
 db.Filters = {
     ["Fish"] = {
-        uiName = "Shadowlands Fish",
+        uiName = "Shadowlands Fishing",
         uiDesc = "Fish found while fishing in Shadowlands",
         title = "Fish",
         items = {
