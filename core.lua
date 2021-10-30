@@ -28,17 +28,18 @@ local function tooltipInit()
 end
 
 -- Check for existing filter
-local function CheckFilter(FilterName)
+local function CheckFilter(filterName)
 	for i, filter in AdiBags:IterateFilters() do
-		if debugMode then
-			print(filter.uiName .. ": Cooking")
-		end
-
-		if filter.uiName == FilterName then
-			if debugMode then
-				print(filter.uiName .. " : FilterExists State")
-			end
+		local currentFilter = filter.filterName
+		local newFilter = filterName
+		print(currentFilter .. " : current Filter")
+		print(newFilter .. " : new filter")
+		if currentFilter == newFilter then
+			print(newFilter .. ": skip this")
 			return false
+		else
+			print(newFilter .. " : Ok to use")
+			return true
 		end
 	end
 end
@@ -91,14 +92,14 @@ end
 local function AllFilters(db)
 	for name, group in pairs(db.Filters) do
 		-- Does filter already exist?
-		local FilterExists = CheckFilter(group.uiName)
-
-		if FilterExists == false then
-		-- name = Name of table
-		-- group.uiName = Name to use in filter listing
-		-- group.uiDesc = Description to show in filter listing
-		-- group.items = table of items to sort
-		--		CreateFilter(name, group.uiName, group.uiDesc, group.title, group.items)
+		local filterExists = CheckFilter(group.uiName)
+		print(filterExists)
+		if filterExists then
+			-- name = Name of table
+			-- group.uiName = Name to use in filter listing
+			-- group.uiDesc = Description to show in filter listing
+			-- group.items = table of items to sort
+			CreateFilter(name, group.uiName, group.uiDesc, group.title, group.items)
 		end
 	end
 end
