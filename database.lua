@@ -12,21 +12,6 @@ db.desc = "Cooking items & reagents found in Shadowlands"
 
 -- Filter info
 db.Filters = {
-    ["Fish"] = {
-        uiName = "Shadowlands Fish",
-        uiDesc = "Fish found while fishing in Shadowlands",
-        title = "Fish",
-        items = {
-            -- ID,	--Item name
-            [173032] = true, -- Lost Sole
-            [173033] = true, -- Iridescent Amberjack
-            [173034] = true, -- Silvergill Pike
-            [173035] = true, -- Pocked Bonefish
-            [173036] = true, -- Spinefin Piranha
-            [173037] = true, -- Elysian Thade
-            [174327] = true -- Malformed Gnasher
-        }
-    },
     ["Meat"] = {
         uiName = "Shadowlands Meat",
         uiDesc = "Meat found in Shadowlands",
@@ -50,6 +35,21 @@ db.Filters = {
             [172058] = true, -- Smuggled Azerothian Produce
             [172059] = true, -- Rich Grazer Milk
             [178786] = true -- Lusterwheat Flour
+        }
+    },
+    ["Fish"] = {
+        uiName = "Shadowlands Fish",
+        uiDesc = "Fish found while fishing in Shadowlands",
+        title = "Fish",
+        items = {
+            -- ID,	--Item name
+            [173032] = true, -- Lost Sole
+            [173033] = true, -- Iridescent Amberjack
+            [173034] = true, -- Silvergill Pike
+            [173035] = true, -- Pocked Bonefish
+            [173036] = true, -- Spinefin Piranha
+            [173037] = true, -- Elysian Thade
+            [174327] = true -- Malformed Gnasher
         }
     }
 }
