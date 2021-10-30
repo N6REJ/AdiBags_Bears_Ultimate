@@ -29,16 +29,17 @@ end
 
 -- Check for existing filter
 local function CheckFilter(filterName)
+	print("---- " .. filterName .. "------")
 	for i, filter in AdiBags:IterateFilters() do
 		local currentFilter = filter.uiName
 		local newFilter = filterName
 
+		print(i, newFilter, " = " .. currentFilter)
 		if newFilter == currentFilter then
 			print(newFilter .. " : in use")
 			return true
 		end
 	end
-	return false
 end
 
 -- Create Filters
