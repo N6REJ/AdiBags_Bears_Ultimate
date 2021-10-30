@@ -30,18 +30,15 @@ end
 -- Check for existing filter
 local function CheckFilter(filterName)
 	for i, filter in AdiBags:IterateFilters() do
-		local currentFilter = filter.filterName
+		local currentFilter = filter.uiName
 		local newFilter = filterName
-		print(currentFilter .. " : current Filter")
-		print(newFilter .. " : new filter")
-		if currentFilter == newFilter then
-			print(newFilter .. ": skip this")
-			return false
-		else
-			print(newFilter .. " : Ok to use")
+
+		if newFilter == currentFilter then
+			print(newFilter .. " : in use")
 			return true
 		end
 	end
+	return false
 end
 
 -- Create Filters
@@ -94,7 +91,7 @@ local function AllFilters(db)
 		-- Does filter already exist?
 		local filterExists = CheckFilter(group.uiName)
 		print(filterExists)
-		if filterExists then
+		if not filterExists then
 			-- name = Name of table
 			-- group.uiName = Name to use in filter listing
 			-- group.uiDesc = Description to show in filter listing
