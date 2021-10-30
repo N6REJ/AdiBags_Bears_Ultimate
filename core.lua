@@ -31,7 +31,8 @@ end
 local function CheckFilter(newFilter)
 	print("\n---- " .. newFilter .. "------")
 	for i, filter in AdiBags:IterateFilters() do
-		local currentFilter = filter.uiName
+		local currentFilter = filter.filterName
+
 		print(i, newFilter, " = " .. currentFilter)
 		if newFilter == currentFilter then
 			print(newFilter .. " : is in use")
@@ -96,7 +97,7 @@ local function AllFilters(db)
 			-- group.uiDesc = Description to show in filter listing
 			-- group.items = table of items to sort
 			CreateFilter(name, group.uiName, group.uiDesc, group.title, group.items)
-		--	print("\n" .. group.uiName .. " : Created")
+			print("filter " .. group.uiName .. " created")
 		end
 	end
 end

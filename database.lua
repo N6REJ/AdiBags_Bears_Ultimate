@@ -38,7 +38,7 @@ db.Filters = {
         }
     },
     ["Fish"] = {
-        uiName = "Shadowlands Fishing",
+        uiName = "Shadowlands Fish",
         uiDesc = "Fish found while fishing in Shadowlands",
         title = "Fish",
         items = {
