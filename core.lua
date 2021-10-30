@@ -90,7 +90,7 @@ local function AllFilters(db)
 		-- Does filter already exist?
 		local filterExists = CheckFilter(group.uiName)
 		print("\nFilter State is: ", filterExists)
-		if filterExists == false then
+		if not filterExists then
 			-- name = Name of table
 			-- group.uiName = Name to use in filter listing
 			-- group.uiDesc = Description to show in filter listing
