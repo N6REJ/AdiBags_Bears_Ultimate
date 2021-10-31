@@ -29,22 +29,20 @@ end
 
 -- Check for existing filter
 local function CheckFilter(newFilter)
-	print("\n---- " .. newFilter .. "------")
-	for i, filter in AdiBags:IterateFilters() do
-		local currentFilter = filter.filterName
-
-		print(i, newFilter, " = " .. currentFilter)
-		if newFilter == currentFilter then
-			print(newFilter .. " : is in use")
-			return true
+	local filterExists = false
+	for key, value in AdiBags:IterateFilters() do
+		if value.filterName == newFilter then
+			filterExists = true
+			return filterExists
 		end
 	end
+	return filterExists
 end
 
 -- Create Filters
 local function CreateFilter(name, uiName, uiDesc, title, items)
-	-- Register Filter with adibags
 	local filter = AdiBags:RegisterFilter(uiName, 98, "ABEvent-1.0")
+	-- Register Filter with adibags
 	filter.uiName = uiName
 	filter.uiDesc = uiDesc .. "Version:" .. GetAddOnMetadata(addonName, "Version")
 	filter.items = items
@@ -90,14 +88,12 @@ local function AllFilters(db)
 	for name, group in pairs(db.Filters) do
 		-- Does filter already exist?
 		local filterExists = CheckFilter(group.uiName)
-		print("\nFilter State is: ", filterExists)
-		if not filterExists then
+		if not filterExists == nil or filterExists == false then
 			-- name = Name of table
 			-- group.uiName = Name to use in filter listing
 			-- group.uiDesc = Description to show in filter listing
 			-- group.items = table of items to sort
 			CreateFilter(name, group.uiName, group.uiDesc, group.title, group.items)
-			print("filter " .. group.uiName .. " created")
 		end
 	end
 end
