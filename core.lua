@@ -1,6 +1,5 @@
--- AdiBags_Shadowlands_Cooking
 -- Created by N6REJ character is Bearesquishy - dalaran please credit whenever.
--- Source on GitHub: https://github.com/N6REJ/Adibags_Shadowlands_Cooking
+-- Source on GitHub: https://n6rej.github.io
 
 local addonName, addonTable, addon = ...
 
@@ -12,7 +11,7 @@ local MatchIDs
 local tooltip
 local Result = {}
 -- Debug mode switch
-local debugMode = true
+local debugMode = false
 
 local function tooltipInit()
 	local tip, leftside = CreateFrame("GameTooltip"), {}
