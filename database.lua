@@ -1,50 +1,58 @@
--- AdiBags_Shadowlands_Crafting - Meat Database
+-- AdiBags_Shadowlands_Cooking - Database
 -- Created by N6REJ character is Bearesquishy - dalaran please credit whenever.
--- Source on GitHub: https://github.com/N6REJ/AdiBags_Shadowlands_Crafting
+-- Source on GitHub: https://github.com/N6REJ/Adibags_Shadowlands_Fishing
 --
-local ADDON_NAME, ADDON_TABLE, addon = ...
+local addonName, addonTable, addon = ...
 
 -- Create addon table
-N = { }
-ADDON_TABLE.N = N
+local db = {}
 
--- Label to use
-N["FilterTitle"] = "Cooking"
+db.name = "Shadowlands Cooking"
+db.desc = "Cooking items & reagents found in Shadowlands"
 
--- Database of items
-N["database"] = {
-	172056, -- Medley of Transplanar Spices
-	172057,	-- Inconceivably Aged Vinegar
-	172058, -- Smuggled Azerothian Produce
-	172059, -- Rich Grazer Milk
-	178786,	-- Lusterwheat Flour
+-- Filter info
+db.Filters = {
+    ["Meat"] = {
+        uiName = "Shadowlands Meat",
+        uiDesc = "Meat found in Shadowlands",
+        title = "Meat",
+        items = {
+            [172052] = true, -- Aethereal Meat
+            [172053] = true, -- Tenebrous Ribs
+            [172054] = true, -- Raw Seraphic Wing
+            [172055] = true, -- Phantasmal Haunch
+            [179314] = true, -- Creeping Crawler Meat
+            [179315] = true -- Shadowy Shank
+        }
+    },
+    ["Cooking"] = {
+        uiName = "Shadowlands Cooking",
+        uiDesc = "Reagents for cooking in Shadowlands",
+        title = "Cooking",
+        items = {
+            [172056] = true, -- Medley of Transplanar Spices
+            [172057] = true, -- Inconceivably Aged Vinegar
+            [172058] = true, -- Smuggled Azerothian Produce
+            [172059] = true, -- Rich Grazer Milk
+            [178786] = true -- Lusterwheat Flour
+        }
+    },
+    ["Fish"] = {
+        uiName = "Shadowlands Fish",
+        uiDesc = "Fish found while fishing in Shadowlands",
+        title = "Fish",
+        items = {
+            -- ID,	--Item name
+            [173032] = true, -- Lost Sole
+            [173033] = true, -- Iridescent Amberjack
+            [173034] = true, -- Silvergill Pike
+            [173035] = true, -- Pocked Bonefish
+            [173036] = true, -- Spinefin Piranha
+            [173037] = true, -- Elysian Thade
+            [174327] = true -- Malformed Gnasher
+        }
+    }
 }
---[[
--- Label to use
-N["FilterTitle_meat"] = "Meat"
 
--- Database of items
-N["database_meat"] = {
-	172052,	-- Aethereal Meat
-	172053,	-- Tenebrous Ribs
-	172054,	-- Raw Seraphic Wing
-	172055,	-- Phantasmal Haunch
-	179314,	-- Creeping Crawler Meat
-	179315,	-- Shadowy Shank
-}
-
--- Label to use
-N["FilterTitle_fish"] = "Fish"
-
--- Database of items
-N["database_fish"] = {
-	-- ID,	--Item name
-	173032,	-- Lost Sole
-	173033,	-- Iridescent Amberjack
-	173034,	-- Silvergill Pike
-	173035,	-- Pocked Bonefish
-	173036,	-- Spinefin Piranha
-	173037,	-- Elysian Thade
-	174327,	-- Malformed Gnasher
-}
-]]--
+-- now that db is populated lets pass it on.
+addonTable.db = db
