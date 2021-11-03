@@ -1,6 +1,6 @@
-## Interface: 90100
+## Interface: 90105
 ## Title: AdiBags - Shadowlands Cooking
-## Version: 1.4
+## Version: 1.5
 ## Author: Bearesquishy
 ## X-License: GPL v3
 ## DefaultState: enabled
