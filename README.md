@@ -1,4 +1,4 @@
-# Adibags Shadowlands Cooking
+# AdiBags Shadowlands Cooking
 sorts "Fish", "Meat" & "Cooking vendor" reagents into their own categories
 
 
