@@ -1,4 +1,4 @@
-package-as: AdiBags_Shadowlands_Fishing
+package-as: AdiBags_Shadowlands_Cooking
 
 ignore:
     - README.md
