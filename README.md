@@ -9,3 +9,4 @@ sorts "Fish", "Meat" & "Cooking vendor" reagents into their own categories
 
 ![reagent bank](https://user-images.githubusercontent.com/1850089/139585409-343b4d09-16c5-4d45-9eb8-b3b8ab2dfa70.png)
 
+###### Replaces the need for AdiBags_Shadowlands_Meat & AdiBags_Shadowlands_Fish.
