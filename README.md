@@ -1,4 +1,4 @@
-# AdiBags Shadowlands Cooking
+# AdiBags Shadowlands Cooking  ![image](https://img.shields.io/github/repo-size/N6REJ/AdiBags_Shadowlands_Cooking) ![image](https://img.shields.io/github/release-date/N6REJ/AdiBags_Shadowlands_Cooking)
 sorts "Fish", "Meat" & "Cooking vendor" reagents into their own categories
 
 
