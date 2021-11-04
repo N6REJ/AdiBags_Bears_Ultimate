@@ -1,5 +1,5 @@
 -- AdiBags_Shadowlands_Cooking - Database
--- Created by N6REJ character is Bearesquishy - dalaran please credit whenever.
+-- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 --
 local addonName, addonTable, addon = ...

@@ -43,7 +43,7 @@ local function CreateFilter(name, uiName, uiDesc, title, items)
 	local filter = AdiBags:RegisterFilter(uiName, 98, "ABEvent-1.0")
 	-- Register Filter with adibags
 	filter.uiName = uiName
-	filter.uiDesc = uiDesc .. "Version:" .. GetAddOnMetadata(addonName, "Version")
+	filter.uiDesc = uiDesc .. "Version: " .. '@project-version@'
 	filter.items = items
 
 	function filter:OnInitialize()
