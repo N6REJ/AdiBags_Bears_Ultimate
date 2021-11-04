@@ -3,6 +3,9 @@
 .vs
 .vscode
 
+# BigWigs packager
+.release
+/packager
 
 # Compiled Lua sources
 luac.out
