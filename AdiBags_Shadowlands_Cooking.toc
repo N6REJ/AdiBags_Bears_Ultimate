@@ -1,8 +1,9 @@
-## Interface: 90100
+## Interface: 90105
 ## Title: AdiBags - Shadowlands Cooking
-## Version: 1.4
+## Version: @project-version@
 ## Author: Bearesquishy
-## X-License: GPL v3
+## X-License: MIT
+## X-Curse-Project-ID: 506378
 ## DefaultState: enabled
 ## Dependancies: AdiBags
 
