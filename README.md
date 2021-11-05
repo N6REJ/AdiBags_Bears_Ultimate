@@ -1,4 +1,4 @@
-# AdiBags Shadowlands Cooking  ![image](https://img.shields.io/github/repo-size/N6REJ/AdiBags_Shadowlands_Cooking)  [![Build Curse Release](https://github.com/N6REJ/AdiBags_Shadowlands_Cooking/actions/workflows/action.yml/badge.svg)](https://github.com/N6REJ/AdiBags_Shadowlands_Cooking/actions/workflows/action.yml)
+# AdiBags Shadowlands Cooking  ![image](https://img.shields.io/github/repo-size/N6REJ/AdiBags_Shadowlands_Cooking)  [![Build Curse Release](https://github.com/N6REJ/AdiBags_Shadowlands_Cooking/actions/workflows/action.yml/badge.svg)](https://github.com/N6REJ/AdiBags_Shadowlands_Cooking/actions/workflows/action.yml)  ![image](https://img.shields.io/badge/Supports-Shadowlands-0B68D7)
 sorts "Fish", "Meat" & "Cooking vendor" reagents into their own categories
 
 
