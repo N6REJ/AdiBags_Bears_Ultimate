@@ -26,8 +26,8 @@ db.Filters = {
         }
     },
     ["Vendor_Reagents"] = {
-        uiName = "Shadowlands Vendor Reagents",
-        uiDesc = "Reagents from vendors used in Shadowlands",
+        uiName = "Shadowlands Cooking Vendor Reagents",
+        uiDesc = "Reagents from cooking vendors used in Shadowlands",
         title = "Vendor Reagents",
         items = {
             [172056] = true, -- Medley of Transplanar Spices
