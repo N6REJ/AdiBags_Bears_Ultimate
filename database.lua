@@ -25,10 +25,10 @@ db.Filters = {
             [179315] = true -- Shadowy Shank
         }
     },
-    ["Cooking"] = {
-        uiName = "Shadowlands Cooking",
-        uiDesc = "Reagents for cooking in Shadowlands",
-        title = "Cooking",
+    ["Vendor_Reagents"] = {
+        uiName = "Shadowlands Vendor Reagents",
+        uiDesc = "Reagents from vendors used in Shadowlands",
+        title = "Vendor Reagents",
         items = {
             [172056] = true, -- Medley of Transplanar Spices
             [172057] = true, -- Inconceivably Aged Vinegar
