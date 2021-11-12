@@ -26,9 +26,9 @@ db.Filters = {
         }
     },
     ["Vendor_Reagents"] = {
-        uiName = "Shadowlands Cooking Vendor Reagents",
+        uiName = "Shadowlands Cooking Reagents",
         uiDesc = "Reagents from cooking vendors used in Shadowlands",
-        title = "Vendor Reagents",
+        title = "Cooking Reagents",
         items = {
             [172056] = true, -- Medley of Transplanar Spices
             [172057] = true, -- Inconceivably Aged Vinegar
