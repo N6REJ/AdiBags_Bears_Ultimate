@@ -22,7 +22,8 @@ db.Filters = {
             [172054] = true, -- Raw Seraphic Wing
             [172055] = true, -- Phantasmal Haunch
             [179314] = true, -- Creeping Crawler Meat
-            [179315] = true -- Shadowy Shank
+            [179315] = true, -- Shadowy Shank
+            [187704] = true -- Protoflesh
         }
     },
     ["Vendor_Reagents"] = {
@@ -49,7 +50,8 @@ db.Filters = {
             [173035] = true, -- Pocked Bonefish
             [173036] = true, -- Spinefin Piranha
             [173037] = true, -- Elysian Thade
-            [174327] = true -- Malformed Gnasher
+            [174327] = true, -- Malformed Gnasher
+            [187702] = true -- Precurser Placoderm
         }
     }
 }
