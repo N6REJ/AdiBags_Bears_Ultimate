@@ -53,7 +53,16 @@ db.Filters = {
             [174327] = true, -- Malformed Gnasher
             [187702] = true -- Precurser Placoderm
         }
-    }
+    },
+    ["Ore"] = {
+        uiName = "Shadowlands Mining",
+        uiDesc = "Ore found in Shadowlands",
+        title = "Ore",
+        items = {
+            -- ID  = true,		--Item name
+            [171841] = true -- Shaded Stone [ Required for kettle of soup ]
+        },
+    },
 }
 
 -- now that db is populated lets pass it on.
