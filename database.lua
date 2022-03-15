@@ -62,7 +62,7 @@ db.Filters = {
             -- ID  = true,		--Item name
             [171841] = true -- Shaded Stone [ Required for kettle of soup ]
         },
-    },
+    }
 }
 
 -- now that db is populated lets pass it on.
