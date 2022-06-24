@@ -5,7 +5,7 @@ branding:
   color: yellow
 inputs:
   args:
-    description: 'Command-line arguments. See https://github.com/BigWigsMods/packager#usage'
+    description: 'Command-line arguments- See https://github.com/BigWigsMods/packager#usage'
     required: false
   pandoc:
     description: 'Install pandoc before packaging if uploading to WoWInterface.'

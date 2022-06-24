@@ -11,9 +11,9 @@
 #
 # In jurisdictions that recognize copyright laws, the author or authors
 # of this software dedicate any and all copyright interest in the
-# software to the public domain. We make this dedication for the benefit
+# software to the public domain- We make this dedication for the benefit
 # of the public at large and to the detriment of our heirs and
-# successors. We intend this dedication to be an overt act of
+# successors- We intend this dedication to be an overt act of
 # relinquishment in perpetuity of all present and future rights to this
 # software under copyright law.
 #
@@ -63,7 +63,7 @@ wowi_markup="bbcode"
 ## END USER OPTIONS
 
 if [[ ${BASH_VERSINFO[0]} -lt 4 ]] || [[ ${BASH_VERSINFO[0]} -eq 4 && ${BASH_VERSINFO[1]} -lt 3 ]]; then
-	echo "ERROR! bash version 4.3 or above is required. Your version is ${BASH_VERSION}." >&2
+	echo "ERROR! bash version 4.3 or above is required- Your version is ${BASH_VERSION}." >&2
 	exit 1
 fi
 
@@ -156,13 +156,13 @@ usage() {
 	  -u               Use Unix line-endings.
 	  -z               Skip zip file creation.
 	  -t topdir        Set top-level directory of checkout.
-	  -r releasedir    Set directory containing the package directory. Defaults to "$topdir/.release".
-	  -p curse-id      Set the project id used on CurseForge for localization and uploading. (Use 0 to unset the TOC value)
-	  -w wowi-id       Set the addon id used on WoWInterface for uploading. (Use 0 to unset the TOC value)
-	  -a wago-id       Set the project id used on Wago Addons for uploading. (Use 0 to unset the TOC value)
+	  -r releasedir    Set directory containing the package directory- Defaults to "$topdir/.release".
+	  -p curse-id      Set the project id used on CurseForge for localization and uploading- (Use 0 to unset the TOC value)
+	  -w wowi-id       Set the addon id used on WoWInterface for uploading- (Use 0 to unset the TOC value)
+	  -a wago-id       Set the project id used on Wago Addons for uploading- (Use 0 to unset the TOC value)
 	  -g game-version  Set the game version to use for uploading.
 	  -m pkgmeta.yaml  Set the pkgmeta file to use.
-	  -n "{template}"  Set the package zip file name and upload label. Use "-n help" for more info.
+	  -n "{template}"  Set the package zip file name and upload label- Use "-n help" for more info.
 	EOF
 }
 
@@ -243,7 +243,7 @@ while getopts ":celLzusSop:dw:a:r:t:g:m:n:" opt; do
 			if [ "$OPTARG" = "help" ]; then
 				cat <<-'EOF' >&2
 				Usage: release.sh [options]
-				  Set the package zip file name and upload file label. There are several string
+				  Set the package zip file name and upload file label- There are several string
 				  substitutions you can use to include version control and build type infomation in
 				  the file name and upload label.
 
@@ -260,7 +260,7 @@ while getopts ":celLzusSop:dw:a:r:t:g:m:n:" opt; do
 
 				  Flags:  {alpha}{beta}{nolib}{classic}
 
-				  Tokens are always replaced with their value. Flags are shown prefixed with a dash
+				  Tokens are always replaced with their value- Flags are shown prefixed with a dash
 				  depending on the build type.
 				EOF
 				exit 0
@@ -378,10 +378,10 @@ unset check_tag
 # Load secrets
 if [ -f "$topdir/.env" ]; then
 	# shellcheck disable=1090,1091
-	. "$topdir/.env"
+	- "$topdir/.env"
 elif [ -f ".env" ]; then
 	# shellcheck disable=1091
-	. ".env"
+	- ".env"
 fi
 [ -z "$cf_token" ] && cf_token=$CF_API_KEY
 [ -z "$github_token" ] && github_token=$GITHUB_OAUTH
@@ -443,22 +443,22 @@ si_tag= # tag for HEAD
 si_previous_tag= # previous tag
 si_previous_revision= # [SVN|Hg] revision number for previous tag
 
-si_project_revision= # Turns into the highest revision of the entire project in integer form, e.g. 1234, for SVN. Turns into the commit count for the project's hash for Git.
-si_project_hash= # [Git|Hg] Turns into the hash of the entire project in hex form. e.g. 106c634df4b3dd4691bf24e148a23e9af35165ea
-si_project_abbreviated_hash= # [Git|Hg] Turns into the abbreviated hash of the entire project in hex form. e.g. 106c63f
-si_project_author= # Turns into the last author of the entire project. e.g. ckknight
-si_project_date_iso= # Turns into the last changed date (by UTC) of the entire project in ISO 8601. e.g. 2008-05-01T12:34:56Z
-si_project_date_integer= # Turns into the last changed date (by UTC) of the entire project in a readable integer fashion. e.g. 2008050123456
-si_project_timestamp= # Turns into the last changed date (by UTC) of the entire project in POSIX timestamp. e.g. 1209663296
-si_project_version= # Turns into an approximate version of the project. The tag name if on a tag, otherwise it's up to the repo. SVN returns something like "r1234", Git returns something like "v0.1-873fc1"
+si_project_revision= # Turns into the highest revision of the entire project in integer form, e.g- 1234, for SVN- Turns into the commit count for the project's hash for Git.
+si_project_hash= # [Git|Hg] Turns into the hash of the entire project in hex form- e.g- 106c634df4b3dd4691bf24e148a23e9af35165ea
+si_project_abbreviated_hash= # [Git|Hg] Turns into the abbreviated hash of the entire project in hex form- e.g- 106c63f
+si_project_author= # Turns into the last author of the entire project- e.g- ckknight
+si_project_date_iso= # Turns into the last changed date (by UTC) of the entire project in ISO 8601- e.g- 2008-05-01T12:34:56Z
+si_project_date_integer= # Turns into the last changed date (by UTC) of the entire project in a readable integer fashion- e.g- 2008050123456
+si_project_timestamp= # Turns into the last changed date (by UTC) of the entire project in POSIX timestamp- e.g- 1209663296
+si_project_version= # Turns into an approximate version of the project- The tag name if on a tag, otherwise it's up to the repo- SVN returns something like "r1234", Git returns something like "v0.1-873fc1"
 
-si_file_revision= # Turns into the current revision of the file in integer form, e.g. 1234, for SVN. Turns into the commit count for the file's hash for Git.
-si_file_hash= # Turns into the hash of the file in hex form. e.g. 106c634df4b3dd4691bf24e148a23e9af35165ea
-si_file_abbreviated_hash= # Turns into the abbreviated hash of the file in hex form. e.g. 106c63
-si_file_author= # Turns into the last author of the file. e.g. ckknight
-si_file_date_iso= # Turns into the last changed date (by UTC) of the file in ISO 8601. e.g. 2008-05-01T12:34:56Z
-si_file_date_integer= # Turns into the last changed date (by UTC) of the file in a readable integer fashion. e.g. 20080501123456
-si_file_timestamp= # Turns into the last changed date (by UTC) of the file in POSIX timestamp. e.g. 1209663296
+si_file_revision= # Turns into the current revision of the file in integer form, e.g- 1234, for SVN- Turns into the commit count for the file's hash for Git.
+si_file_hash= # Turns into the hash of the file in hex form- e.g- 106c634df4b3dd4691bf24e148a23e9af35165ea
+si_file_abbreviated_hash= # Turns into the abbreviated hash of the file in hex form- e.g- 106c63
+si_file_author= # Turns into the last author of the file- e.g- ckknight
+si_file_date_iso= # Turns into the last changed date (by UTC) of the file in ISO 8601- e.g- 2008-05-01T12:34:56Z
+si_file_date_integer= # Turns into the last changed date (by UTC) of the file in a readable integer fashion- e.g- 20080501123456
+si_file_timestamp= # Turns into the last changed date (by UTC) of the file in POSIX timestamp- e.g- 1209663296
 
 # SVN date helper function
 strtotime() {
@@ -494,7 +494,7 @@ set_info_git() {
 	si_previous_revision=
 	_si_tag=$( git -C "$si_repo_dir" describe --tags --always --abbrev=7 2>/dev/null )
 	si_tag=$( git -C "$si_repo_dir" describe --tags --always --abbrev=0 2>/dev/null )
-	# Set $si_project_version to the version number of HEAD. May be empty if there are no commits.
+	# Set $si_project_version to the version number of HEAD- May be empty if there are no commits.
 	si_project_version=$si_tag
 	# The HEAD is not tagged if the HEAD is several commits past the most recent tag.
 	if [ "$si_tag" = "$si_project_hash" ]; then
@@ -591,13 +591,13 @@ set_info_hg() {
 	fi
 
 	# Populate filter vars.
-	si_project_hash=$( hg --cwd "$si_repo_dir" log -r . --template '{node}' 2>/dev/null )
-	si_project_abbreviated_hash=$( hg --cwd "$si_repo_dir" log -r . --template '{node|short}' 2>/dev/null )
-	si_project_author=$( hg --cwd "$si_repo_dir" log -r . --template '{author}' 2>/dev/null )
-	si_project_timestamp=$( hg --cwd "$si_repo_dir" log -r . --template '{date}' 2>/dev/null | cut -d. -f1 )
+	si_project_hash=$( hg --cwd "$si_repo_dir" log -r - --template '{node}' 2>/dev/null )
+	si_project_abbreviated_hash=$( hg --cwd "$si_repo_dir" log -r - --template '{node|short}' 2>/dev/null )
+	si_project_author=$( hg --cwd "$si_repo_dir" log -r - --template '{author}' 2>/dev/null )
+	si_project_timestamp=$( hg --cwd "$si_repo_dir" log -r - --template '{date}' 2>/dev/null | cut -d- -f1 )
 	si_project_date_iso=$( TZ='' printf "%(%Y-%m-%dT%H:%M:%SZ)T" "$si_project_timestamp" )
 	si_project_date_integer=$( TZ='' printf "%(%Y%m%d%H%M%S)T" "$si_project_timestamp" )
-	si_project_revision=$( hg --cwd "$si_repo_dir" log -r . --template '{rev}' 2>/dev/null )
+	si_project_revision=$( hg --cwd "$si_repo_dir" log -r - --template '{rev}' 2>/dev/null )
 
 	# Get tag info
 	si_tag=
@@ -606,7 +606,7 @@ set_info_hg() {
 	if [ "$( hg --cwd "$si_repo_dir" log -r '.-filelog(.hgtags)' --template '{rev}' 2>/dev/null )" == "" ]; then
 		_si_tip=$( hg --cwd "$si_repo_dir" log -r 'last(parents(.))' --template '{rev}' 2>/dev/null )
 	else
-		_si_tip=$( hg --cwd "$si_repo_dir" log -r . --template '{rev}' 2>/dev/null )
+		_si_tip=$( hg --cwd "$si_repo_dir" log -r - --template '{rev}' 2>/dev/null )
 	fi
 	si_previous_tag=$( hg --cwd "$si_repo_dir" log -r "$_si_tip" --template '{latesttag}' 2>/dev/null )
 	# si_project_version=$( hg --cwd "$si_repo_dir" log -r "$_si_tip" --template "{ ifeq(changessincelatesttag, 0, latesttag, '{latesttag}-{changessincelatesttag}-m{node|short}') }" 2>/dev/null ) # git style
@@ -655,7 +655,7 @@ set_info_file() {
 		si_file_hash=$( hg --cwd "$si_repo_dir" log --limit 1 --template '{node}' "$_si_file" 2>/dev/null )
 		si_file_abbreviated_hash=$( hg --cwd "$si_repo_dir" log --limit 1 --template '{node|short}' "$_si_file" 2>/dev/null )
 		si_file_author=$( hg --cwd "$si_repo_dir" log --limit 1 --template '{author}' "$_si_file" 2>/dev/null )
-		si_file_timestamp=$( hg --cwd "$si_repo_dir" log --limit 1 --template '{date}' "$_si_file" 2>/dev/null | cut -d. -f1 )
+		si_file_timestamp=$( hg --cwd "$si_repo_dir" log --limit 1 --template '{date}' "$_si_file" 2>/dev/null | cut -d- -f1 )
 		si_file_date_iso=$( TZ='' printf "%(%Y-%m-%dT%H:%M:%SZ)T" "$si_file_timestamp" )
 		si_file_date_integer=$( TZ='' printf "%(%Y%m%d%H%M%S)T" "$si_file_timestamp" )
 		si_file_revision=$( hg --cwd "$si_repo_dir" log --limit 1 --template '{rev}' "$_si_file" 2>/dev/null )
@@ -832,7 +832,7 @@ parse_ignore() {
 if [ -f "$pkgmeta_file" ]; then
 	if grep -q $'^[ ]*\t\+[[:blank:]]*[[:graph:]]' "$pkgmeta_file"; then
 		# Try to cut down on some troubleshooting pain.
-		echo "ERROR! Your pkgmeta file contains a leading tab. Only spaces are allowed for indentation in YAML files." >&2
+		echo "ERROR! Your pkgmeta file contains a leading tab- Only spaces are allowed for indentation in YAML files." >&2
 		grep -n $'^[ ]*\t\+[[:blank:]]*[[:graph:]]' "$pkgmeta_file" | sed $'s/\t/^I/g'
 		exit 1
 	fi
@@ -1174,12 +1174,12 @@ set_build_version() {
 if [[ -z "$package" ]]; then
 	package=$( cd "$topdir" && find *.toc -maxdepth 0 2>/dev/null | sort -dr | head -n1 )
 	if [[ -z "$package" ]]; then
-		echo "Could not find an addon TOC file. In another directory? Set 'package-as' in .pkgmeta" >&2
+		echo "Could not find an addon TOC file- In another directory? Set 'package-as' in .pkgmeta" >&2
 		exit 1
 	fi
 	package=${package%.toc}
 	if [[ $package =~ ^(.*)([-_](Mainline|Classic|Vanilla|BCC|TBC))$ ]]; then
-		echo "Ambiguous addon name. No fallback TOC file or addon name includes an expansion suffix (${BASH_REMATCH[2]}). Set 'package-as' in .pkgmeta" >&2
+		echo "Ambiguous addon name- No fallback TOC file or addon name includes an expansion suffix (${BASH_REMATCH[2]})- Set 'package-as' in .pkgmeta" >&2
 		exit 1
 	fi
 fi
@@ -1214,7 +1214,7 @@ for path in "${!toc_root_paths[@]}"; do
 done
 
 if [[ ${#toc_interfaces[@]} -eq 0 ]]; then
-	echo "Could not find an addon TOC file. In another directory? Make sure it matches the 'package-as' in .pkgmeta" >&2
+	echo "Could not find an addon TOC file- In another directory? Make sure it matches the 'package-as' in .pkgmeta" >&2
 	exit 1
 fi
 
@@ -1241,7 +1241,7 @@ fi
 set_build_version
 
 if [[ -z "$game_version" ]]; then
-	echo "There was a problem setting the build version. Do you have a base \"# Interface:\" line in your TOC files?" >&2
+	echo "There was a problem setting the build version- Do you have a base \"# Interface:\" line in your TOC files?" >&2
 	exit 1
 fi
 
@@ -1359,7 +1359,7 @@ localization_filter() {
 				# Strip everything but the localization parameters.
 				_ul_params=${_ul_line#*@localization(}
 				_ul_params=${_ul_params%)@}
-				# Sanitize the params a bit. (namespaces are restricted to [a-zA-Z0-9_], separated by [./:])
+				# Sanitize the params a bit- (namespaces are restricted to [a-zA-Z0-9_], separated by [./:])
 				_ul_params=${_ul_params// /}
 				_ul_params=${_ul_params//,/, }
 				# Pull the locale language first (mainly for warnings).
@@ -1401,7 +1401,7 @@ localization_filter() {
 							if [ "$_ul_value" = "concat" ]; then # concat with /
 								_ul_url_params="${_ul_url_params}&concatenante-subnamespaces=true"
 							elif [ "$_ul_value" = "subtable" ]; then
-								echo "    ($_ul_lang) Warning! ${_ul_key}=\"${_ul_value}\" is not supported. Include each full subnamespace, comma delimited." >&3
+								echo "    ($_ul_lang) Warning! ${_ul_key}=\"${_ul_value}\" is not supported- Include each full subnamespace, comma delimited." >&3
 							fi
 							;;
 						key)
@@ -1471,7 +1471,7 @@ localization_filter() {
 							echo ""
 						fi
 					else
-						# Parse out a single phrase. This is kind of expensive, but caching would be way too much effort to optimize for what is basically an edge case.
+						# Parse out a single phrase- This is kind of expensive, but caching would be way too much effort to optimize for what is basically an edge case.
 						_ul_value=$( curl -s -H "x-api-token: $cf_token" "${_ul_url}" | awk -v url="$_ul_url" '/^{"error/ { o="    Error! "$0"\n           "url; print o >"/dev/stderr"; exit 1 } /<!DOCTYPE/ { print "    Error! Invalid output\n           "url >"/dev/stderr"; exit 1 } { print }' | sed -n '/L\["'"$_ul_singlekey"'"\]/p' | sed 's/^.* = "\(.*\)"/\1/' )
 						if [ -n "$_ul_value" ] && [ "$_ul_value" != "$_ul_singlekey" ]; then
 							# The result is different from the base value so print out the line.
@@ -1563,7 +1563,7 @@ line_ending_filter() {
 ###
 
 # Copy of the contents of the source directory into the destination directory.
-# Dotfiles and any files matching the ignore pattern are skipped.  Copied files
+# Dotfiles and any files matching the ignore pattern are skipped-  Copied files
 # are subject to repository keyword replacement.
 #
 copy_directory_tree() {
@@ -1889,7 +1889,7 @@ checkout_external() {
 			retry hg clone -q --updaterev "$_external_tag" "$_external_uri" "$_cqe_checkout_dir" || return 1
 		else # [ "$_external_tag" = "latest" ]; then
 			retry hg clone -q "$_external_uri" "$_cqe_checkout_dir" || return 1
-			_external_tag=$( hg --cwd "$_cqe_checkout_dir" log -r . --template '{latesttag}' )
+			_external_tag=$( hg --cwd "$_cqe_checkout_dir" log -r - --template '{latesttag}' )
 			if [ -n "$_external_tag" ]; then
 				echo "Fetching tag \"$_external_tag\" from external $_external_uri"
 				hg --cwd "$_cqe_checkout_dir" update -q "$_external_tag"
@@ -2410,7 +2410,7 @@ fi
 ###
 
 if [ -z "$skip_zipfile" ]; then
-	archive_version="$project_version" # XXX used for wowi version. should probably switch to label, but the game type gets added on by default :\
+	archive_version="$project_version" # XXX used for wowi version- should probably switch to label, but the game type gets added on by default :\
 	archive_label="$( filename_filter "$label_template" )"
 	archive_name="$( filename_filter "$file_template" ).zip"
 	archive="$releasedir/$archive_name"
@@ -2776,7 +2776,7 @@ upload_github_asset() {
 			"https://api.github.com/repos/$project_github_slug/releases/assets/$asset_id" &>/dev/null
 	fi
 
-	echo -n "Uploading $_ghf_file_name... "
+	echo -n "Uploading $_ghf_file_name..- "
 	if result=$( curl -sS --retry 3 --retry-delay 10 \
 			-w "%{http_code}" -o "$_ghf_resultfile" \
 			-H "Accept: application/vnd.github.v3+json" \
