@@ -23,7 +23,7 @@ db.Filters = {
             [172055] = true, -- Phantasmal Haunch
             [179314] = true, -- Creeping Crawler Meat
             [179315] = true, -- Shadowy Shank
-            [187704] = true -- Protoflesh
+            [187704] = true  -- Protoflesh
         }
     },
     ["Vendor_Reagents"] = {
@@ -35,7 +35,9 @@ db.Filters = {
             [172057] = true, -- Inconceivably Aged Vinegar
             [172058] = true, -- Smuggled Azerothian Produce
             [172059] = true, -- Rich Grazer Milk
-            [178786] = true -- Lusterwheat Flour
+            [178786] = true, -- Lusterwheat Flour
+            [159]    = true, -- Refreshing spring water - [ Required for kettle of stone soup ]
+            [187812] = true  -- Empty Kettle - [ Required for kettle of stone soup ]
         }
     },
     ["Fish"] = {
@@ -60,7 +62,7 @@ db.Filters = {
         title = "Ore",
         items = {
             -- ID  = true,		--Item name
-            [171841] = true -- Shaded Stone [ Required for kettle of soup ]
+            [171841] = true -- Shaded Stone - [ Required for kettle of stone soup ]
         },
     }
 }
