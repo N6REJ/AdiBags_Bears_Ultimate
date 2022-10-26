@@ -1,4 +1,4 @@
--- AdiBags_Shadowlands_Cooking - Database
+-- AdiBags_Bears_Cooking - Database
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 --
@@ -7,14 +7,14 @@ local addonName, addonTable, addon = ...
 -- Create addon table
 local db = {}
 
-db.name = "Shadowlands Cooking"
-db.desc = "Cooking items & reagents found in Shadowlands"
+db.name = "Bears Cooking"
+db.desc = "Cooking items & reagents found in Bears"
 
 -- Filter info
 db.Filters = {
     ["Meat"] = {
-        uiName = "Shadowlands Meat",
-        uiDesc = "Meat found in Shadowlands",
+        uiName = "Bears Meat",
+        uiDesc = "Meat found in Bears",
         title = "Meat",
         items = {
             [172052] = true, -- Aethereal Meat
@@ -27,8 +27,8 @@ db.Filters = {
         }
     },
     ["Vendor_Reagents"] = {
-        uiName = "Shadowlands Cooking Reagents",
-        uiDesc = "Reagents from cooking vendors used in Shadowlands",
+        uiName = "Bears Cooking Reagents",
+        uiDesc = "Reagents from cooking vendors used in Bears",
         title = "Cooking Reagents",
         items = {
             [172056] = true, -- Medley of Transplanar Spices
@@ -41,8 +41,8 @@ db.Filters = {
         }
     },
     ["Fish"] = {
-        uiName = "Shadowlands Fish",
-        uiDesc = "Fish found while fishing in Shadowlands",
+        uiName = "Bears Fish",
+        uiDesc = "Fish found while fishing in Bears",
         title = "Fish",
         items = {
             -- ID,	--Item name
@@ -57,8 +57,8 @@ db.Filters = {
         }
     },
     ["Ore"] = {
-        uiName = "Shadowlands Mining",
-        uiDesc = "Ore found in Shadowlands",
+        uiName = "Bears Mining",
+        uiDesc = "Ore found in Bears",
         title = "Ore",
         items = {
             -- ID  = true,		--Item name

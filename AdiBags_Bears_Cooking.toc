@@ -1,5 +1,5 @@
-## Interface: 90205
-## Title: AdiBags - Shadowlands Cooking
+## Interface: 100000
+## Title: AdiBags - Bears Cooking
 ## Version: @project-version@
 ## Author: BearLeeAble
 ## X-License: MIT
