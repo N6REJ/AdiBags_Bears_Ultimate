@@ -1,12 +1,12 @@
-# AdiBags Shadowlands Cooking 
+# AdiBags Bears Cooking 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Size](https://img.shields.io/github/repo-size/N6REJ/AdiBags_Shadowlands_Cooking) 
-[![Build Curse Release](https://github.com/N6REJ/AdiBags_Shadowlands_Cooking/actions/workflows/release.yml/badge.svg)](https://github.com/N6REJ/AdiBags_Shadowlands_Cooking/actions/workflows/release.yml) 
-[![GitHub release](https://img.shields.io/github/release/N6REJ/AdiBags_Shadowlands_Cooking.svg)](https://GitHub.com/N6REJ/AdiBags_Shadowlands_Cooking/releases/)
+![Size](https://img.shields.io/github/repo-size/N6REJ/AdiBags_Bears_Cooking) 
+[![Build Curse Release](https://github.com/N6REJ/AdiBags_Bears_Cooking/actions/workflows/release.yml/badge.svg)](https://github.com/N6REJ/AdiBags_Bears_Cooking/actions/workflows/release.yml) 
+[![GitHub release](https://img.shields.io/github/release/N6REJ/AdiBags_Bears_Cooking.svg)](https://GitHub.com/N6REJ/AdiBags_Bears_Cooking/releases/)
 
-![Shadowlands](https://img.shields.io/badge/Supports-Shadowlands-0B68D7)
+![Bears](https://img.shields.io/badge/Supports-Bears-0B68D7)
 ![9.2](https://img.shields.io/badge/Ready_for-9.2-darkgreen)
-[![curse](https://img.shields.io/badge/Curseforge_Project_ID:-506378-purple)](https://www.curseforge.com/wow/addons/adibags_shadowlands_cooking)
+[![curse](https://img.shields.io/badge/Curseforge_Project_ID:-506378-purple)](https://www.curseforge.com/wow/addons/adibags_bears_cooking)
 [![requires](https://img.shields.io/badge/Requires-AdiBags-brown)](https://www.curseforge.com/wow/addons/adibags)
 
 sorts "Fish", "Meat" & "Cooking vendor" reagents into their own categories
@@ -17,5 +17,3 @@ sorts "Fish", "Meat" & "Cooking vendor" reagents into their own categories
 ![backpack](https://user-images.githubusercontent.com/1850089/139585364-78377ed1-48e6-4c3a-89c6-785b5cf2dec9.png)
 
 ![reagent bank](https://user-images.githubusercontent.com/1850089/139585409-343b4d09-16c5-4d45-9eb8-b3b8ab2dfa70.png)
-
-###### Replaces the need for [Shadowlands Meat](https://www.curseforge.com/wow/addons/adibags-shadowlands-meat) & [Shadowlands Fish](https://www.curseforge.com/wow/addons/adibags-shadowlands-fish)
