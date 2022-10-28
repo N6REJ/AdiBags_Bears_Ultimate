@@ -1,4 +1,4 @@
--- Created by @project-author@  character is Bearesquishy - dalaran please credit whenever.
+-- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 
 local addonName, addonTable, addon = ...
@@ -10,8 +10,15 @@ local db = addonTable.db
 local MatchIDs
 local tooltip
 local Result = {}
+
 -- Debug mode switch
 local debugMode = false
+
+if debugMode then
+	--@debug@
+	--"Version: " .. '@project-version@'
+	--@end-debug@
+end
 
 local function tooltipInit()
 	local tip, leftside = CreateFrame("GameTooltip"), {}
@@ -43,7 +50,7 @@ local function CreateFilter(name, uiName, uiDesc, title, items)
 	local filter = AdiBags:RegisterFilter(uiName, 98, "ABEvent-1.0")
 	-- Register Filter with adibags
 	filter.uiName = uiName
-	filter.uiDesc = uiDesc .. "Version: " .. '@project-version@'
+	filter.uiDesc = uiDesc .. " 	Version: " .. '@project-version@'
 	filter.items = items
 
 	function filter:OnInitialize()
