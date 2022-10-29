@@ -12,13 +12,13 @@ local Expansion = L["SHADOWLANDS"]
 local db = {}
 
 db.name = "Bears Cooking"
-db.desc = "Cooking items & reagents found in Bears"
+db.desc = "Cooking items & reagents found in " .. Expansion
 
 -- Filter info
 db.Filters = {
     ["Meat"] = {
         uiName = "Bears Meat",
-        uiDesc = "Meat found in Bears",
+        uiDesc = "Meat found in " .. Expansion,
         title = "Meat",
         items = {
             [172052] = true, -- Aethereal Meat
@@ -32,7 +32,7 @@ db.Filters = {
     },
     ["Vendor_Reagents"] = {
         uiName = "Bears Cooking Reagents",
-        uiDesc = "Reagents from cooking vendors used in Bears",
+        uiDesc = "Reagents from cooking vendors used in " .. Expansion,
         title = "Cooking Reagents",
         items = {
             [172056] = true, -- Medley of Transplanar Spices
@@ -46,7 +46,7 @@ db.Filters = {
     },
     ["Fish"] = {
         uiName = "Bears Fish",
-        uiDesc = "Fish found while fishing in Bears",
+        uiDesc = "Fish found while fishing in " .. Expansion,
         title = "Fish",
         items = {
             -- ID,	--Item name
@@ -62,7 +62,7 @@ db.Filters = {
     },
     ["Ore"] = {
         uiName = "Bears Mining",
-        uiDesc = "Ore found in Bears",
+        uiDesc = "Ore found in " .. Expansion,
         title = "Ore",
         items = {
             -- ID  = true,		--Item name
