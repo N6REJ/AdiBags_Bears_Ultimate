@@ -1,12 +1,16 @@
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 
-local addonName, addonTable, addon = ...
+local addonName, addonTable = ...;
+
+-- Get the common names from locales.lua
+local L = addonTable.locales;
 
 -- Get reference to AdiBags addon
 local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
+local L = addonTable.locales;
 
-local db = addonTable.db
+local db = addonTable.db;
 local MatchIDs
 local tooltip
 local Result = {}
