@@ -1,4 +1,4 @@
-local addonName, addonTable = ...;
+---@class ns
 
 addonTable.locales = {
   Shadowlands = "Shadowlands",
