@@ -1,11 +1,11 @@
--- AdiBags_Bears_Cooking - Database
+-- AdiBags Bears Cooking - Database
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 ---@type
 ---
 local addonName, addonTable = ...;
 
--- Get locals names
+-- Get locales name
 local L = addonTable.locales;
 local Expansion = L["Shadowlands"]
 
