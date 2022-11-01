@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - 'main'
-      - 'dev'
+      - 'master'
     paths:
       - '.github/labels.yml'
       - '.github/workflows/create-labels.yml'
