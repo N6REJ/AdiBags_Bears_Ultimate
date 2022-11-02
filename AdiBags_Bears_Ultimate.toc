@@ -1,13 +1,13 @@
 ## Interface: 100000
-## Title: AdiBags - Bears Cooking
+## Title: AdiBags - Bears Ultimate
 ## Version: @project-version@
 ## Author: BearLeeAble
 ## X-License: MIT
-## X-Curse-Project-ID: 506378
-## X-Wago-ID: WYK9Xl6L
+## X-Curse-Project-ID:
+## X-Wago-ID:
 ## DefaultState: enabled
 ## Dependencies: AdiBags
 
-locales.lua
+expansion.lua
 database.lua
 core.lua

@@ -1,19 +1,19 @@
--- AdiBags Bears Cooking - Database
+-- AdiBags Bears Ultimate - Database
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 ---@type
 ---
 local addonName, addonTable = ...;
 
--- Get locales name
-local L = addonTable.locales;
-local Expansion = L["Shadowlands"]
+-- Get the common name for expansion
+local E = addonTable.expansion;
+local Expansion = E["Shadowlands"]
 
 -- Create addon table
 local db = {}
 
-db.name = Expansion .. " Cooking"
-db.desc = "Cooking items & reagents found in " .. Expansion
+db.name = Expansion .. " Ultimate"
+db.desc = "Reagents found in " .. Expansion
 
 -- Filter info
 db.Filters = {
