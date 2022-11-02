@@ -3,8 +3,8 @@
 ---@type
 local addonName, addonTable = ...;
 
--- Get the common names from locales.lua
-local L = addonTable.locales
+-- Get the common expansion names from expansion.lua
+local E = addonTable.expansion
 
 -- Get reference to AdiBags addon
 local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
