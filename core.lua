@@ -1,24 +1,24 @@
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 ---@type
-local addonName, addonTable = ...;
+local addonName, addonTable = ...
 
--- Get the common expansion names from expansion.lua
-local E = addonTable.expansion
+-- Get the common Release names from Release.lua
+--local E = addonTable.Shadowlands
+local db = {}
 
 -- Get reference to AdiBags addon
 local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
 
-local db = addonTable.db;
 local Result = {}
 
 -- Debug mode switch
 local debugMode = false
 
 if debugMode then
-	--@debug@
-	--"Version: " .. '@project-version@'
-	--@end-debug@
+--@debug@
+--"Version: " .. '@project-version@'
+--@end-debug@
 end
 
 -- Check for existing filter
@@ -38,7 +38,7 @@ local function CreateFilter(name, uiName, uiDesc, title, items)
 	local filter = AdiBags:RegisterFilter(uiName, 98, "ABEvent-1.0")
 	-- Register Filter with adibags
 	filter.uiName = uiName
-	filter.uiDesc = uiDesc .. "     Version: " .. '@project-version@'
+	filter.uiDesc = uiDesc .. "     Version: " .. "@project-version@"
 	filter.items = items
 
 	function filter:OnInitialize()
@@ -81,4 +81,8 @@ local function AllFilters(db)
 end
 
 -- Start here
-AllFilters(db)
+-- This will cycle thru each release listed in Release.lua and run the database for that release.
+for key, value in pairs(addonTable.expansion) do
+	db = addonTable[value]
+	AllFilters(db)
+end

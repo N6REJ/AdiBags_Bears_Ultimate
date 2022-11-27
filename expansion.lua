@@ -1,7 +1,7 @@
 ---@class ns
-local addonName, addonTable = ...;
+local addonName, addonTable = ...
 
 addonTable.expansion = {
   Shadowlands = "Shadowlands",
-  Dragonflight = "Dragonflight",
+  Dragonflight = "Dragonflight"
 }
