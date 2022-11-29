@@ -12,8 +12,8 @@ local Expansion = E["Dragonflight"]
 -- Create addon table
 local db = {}
 
-db.name = Expansion .. " Ultimate"
-db.desc = "Reagents found in " .. Expansion
+db.name = "Bears " .. Expansion .. " Ultimate"
+db.desc = "Items & Reagents found in " .. Expansion
 
 -- Filter info
 db.Filters = {
