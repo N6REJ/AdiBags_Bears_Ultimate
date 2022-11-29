@@ -58,6 +58,7 @@ db.Filters = {
 		items = {
 			-- ID  = true,		--Item name
 			[193050] = true, -- Tattered Wildercloth
+			[193922] = true, -- Wildercloth
 		}
 	},
 	["Alchemy"] = {

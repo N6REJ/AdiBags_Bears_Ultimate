@@ -69,6 +69,46 @@ db.Filters = {
             -- ID  = true,		--Item name
             [171841] = true -- Shaded Stone - [ Required for kettle of stone soup ]
         }
+    },
+    ["Cloth"] = {
+        uiName = Expansion .. " Tailoring cloth",
+        uiDesc = "Cloth for tailoring in " .. Expansion,
+        title = "Cloth",
+        items = {
+            -- ID    = true,    --Item name
+            [172439] = true, -- Enchanted Lightless Silk
+            [173202] = true, -- Shrouded Cloth
+            [173204] = true, -- Lightless Silk
+            [187703] = true -- Silken Protofiber
+        }
+    },
+    ["Tailoring_Reagents"] = {
+        uiName = Expansion .. " Tailoring Reagents",
+        uiDesc = "Reagents for Tailoring used in " .. Expansion,
+        title = "Tailoring Reagents",
+        items = {
+            -- ID    = true,    --Item name
+            [177062] = true, -- Penumbra Thread
+            [178787] = true, -- Orboreal shards
+        }
+    },
+    ["Crafted_Reagents"] = {
+        uiName = Expansion .. " Crafted Reagents",
+        uiDesc = "Reagents made by crafting in " .. Expansion,
+        title = "Crafted Reagents",
+        items = {
+            -- ID    = true,    --Item name
+            [173384] = true, -- Crafter's Mark of the Chained Isle
+            [173383] = true, -- Crafter's Mark III
+            [173382] = true, -- Crafter's Mark II
+            [173381] = true, -- Crafter's Mark I
+            [183942] = true, -- Novice Mark II
+            [185960] = true, -- Vestige of Origins
+            [359703] = true, -- Vestige of the Eternal
+            [187707] = true, -- Progenitor Essentia
+            [359670] = true, -- Crafter's Mark of the First Ones
+            [359661] = true -- Crafter's Mark IV
+        }
     }
 }
 

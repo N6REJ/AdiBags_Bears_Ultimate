@@ -81,7 +81,7 @@ local function AllFilters(db)
 end
 
 -- Start here
--- This will cycle thru each release listed in Release.lua and run the database for that release.
+-- This will cycle thru each release listed in expansion lua and run the database for that release.
 for key, value in pairs(addonTable.expansion) do
 	db = addonTable[value]
 	if ( db ~= nil ) then
