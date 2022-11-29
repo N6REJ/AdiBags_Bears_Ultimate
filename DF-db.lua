@@ -60,6 +60,24 @@ db.Filters = {
 			[193050] = true, -- Tattered Wildercloth
 		}
 	},
+	["Alchemy"] = {
+		uiName = Expansion .. " Alchemy",
+		uiDesc = "Alchemy reagents found in " .. Expansion,
+		title = "Alchemy",
+		items = {
+			-- ID  = true,		--Item name
+			[191396] = true, -- Potion of Gusts
+		}
+	},
+	["Pots"] = {
+		uiName = Expansion .. " Raiding pots",
+		uiDesc = "Potions, Oils & food used for raiding in " .. Expansion,
+		title = "Pots",
+		items = {
+			-- ID  = true,		--Item name
+			[191384] = true, -- Aerated Mana Potion
+		}
+	},
 	["Elemental"] = {
 		uiName = Expansion .. " Elemental",
 		uiDesc = "Elemental reagents found in " .. Expansion,
