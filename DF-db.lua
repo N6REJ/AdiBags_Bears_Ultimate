@@ -84,6 +84,7 @@ db.Filters = {
 		items = {
 			-- ID  = true,		--Item name
 			[191384] = true, -- Aerated Mana Potion
+			[191393] = true, -- Potion of the Hushed Zephyr
 		}
 	},
 	["Elemental"] = {
@@ -101,6 +102,15 @@ db.Filters = {
 			[190327] = true, -- Awakened Air
 			[190329] = true, -- Awakened Frost
 			[190316] = true, -- Awakened Fire
+		}
+	},
+	["Crafting_Reagents"] = {
+		uiName = Expansion .. " Crafting Reagents",
+		uiDesc = "Assorted crafting reagents used in " .. Expansion,
+		title = "Crafting Reagent",
+		items = {
+			-- ID  = true,		--Item name
+			[190454] = true, -- Primal Chaos
 		}
 	}
 }
