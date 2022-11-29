@@ -16,9 +16,9 @@ local Result = {}
 local debugMode = false
 
 if debugMode then
---@debug@
---"Version: " .. '@project-version@'
---@end-debug@
+	--@debug@
+	--"Version: " .. '@project-version@'
+	--@end-debug@
 end
 
 -- Check for existing filter
@@ -84,5 +84,7 @@ end
 -- This will cycle thru each release listed in Release.lua and run the database for that release.
 for key, value in pairs(addonTable.expansion) do
 	db = addonTable[value]
-	AllFilters(db)
+	if ( db ~= nil ) then
+		AllFilters(db)
+	end
 end
