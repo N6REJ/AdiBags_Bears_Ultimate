@@ -26,7 +26,7 @@ db.Filters = {
 			[197741] = true, -- Maybe meat
 		}
 	},
-	["Vendor_Reagents"] = {
+--[[	["Vendor_Reagents"] = {
 		uiName = Expansion .. " Cooking Reagents",
 		uiDesc = "Reagents from cooking vendors used in " .. Expansion,
 		title = "Cooking Reagents",
@@ -44,7 +44,7 @@ db.Filters = {
 
 		}
 	},
-	["Ore"] = {
+--]]	["Ore"] = {
 		uiName = Expansion .. " Mining",
 		uiDesc = "Ore found in " .. Expansion,
 		title = "Ore",
