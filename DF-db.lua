@@ -22,7 +22,8 @@ db.Filters = {
 		uiDesc = "Meat found in " .. Expansion,
 		title = "Meat",
 		items = {
-
+			-- ID  = true,		--Item name
+			[197741] = true, -- Maybe meat
 		}
 	},
 	["Vendor_Reagents"] = {
@@ -30,6 +31,7 @@ db.Filters = {
 		uiDesc = "Reagents from cooking vendors used in " .. Expansion,
 		title = "Cooking Reagents",
 		items = {
+			-- ID  = true,		--Item name
 
 		}
 	},
@@ -48,7 +50,9 @@ db.Filters = {
 		title = "Ore",
 		items = {
 			-- ID  = true,		--Item name
-
+			[193394] = true, -- Serevite Ore
+			[193395] = true, -- Serevite Ore
+			[193396] = true, -- Serevite Ore
 		}
 	},
 	["Cloth"] = {
