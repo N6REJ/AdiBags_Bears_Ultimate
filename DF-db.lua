@@ -44,7 +44,7 @@ db.Filters = {
 
 		}
 	},
---]]	["Ore"] = {
+--]]["Ore"] = {
 		uiName = Expansion .. " Mining",
 		uiDesc = "Ore found in " .. Expansion,
 		title = "Ore",
@@ -53,6 +53,9 @@ db.Filters = {
 			[193394] = true, -- Serevite Ore
 			[193395] = true, -- Serevite Ore
 			[193396] = true, -- Serevite Ore
+
+			-- Cooking!!!!!!
+			[197754] = true, -- Cooking reagent!!
 		}
 	},
 	["Cloth"] = {
