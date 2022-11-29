@@ -22,13 +22,7 @@ db.Filters = {
 		uiDesc = "Meat found in " .. Expansion,
 		title = "Meat",
 		items = {
-			[172052] = true, -- Aethereal Meat
-			[172053] = true, -- Tenebrous Ribs
-			[172054] = true, -- Raw Seraphic Wing
-			[172055] = true, -- Phantasmal Haunch
-			[179314] = true, -- Creeping Crawler Meat
-			[179315] = true, -- Shadowy Shank
-			[187704] = true -- Protoflesh
+
 		}
 	},
 	["Vendor_Reagents"] = {
@@ -36,13 +30,7 @@ db.Filters = {
 		uiDesc = "Reagents from cooking vendors used in " .. Expansion,
 		title = "Cooking Reagents",
 		items = {
-			[172056] = true, -- Medley of Transplanar Spices
-			[172057] = true, -- Inconceivably Aged Vinegar
-			[172058] = true, -- Smuggled Azerothian Produce
-			[172059] = true, -- Rich Grazer Milk
-			[178786] = true, -- Lusterwheat Flour
-			[159] = true, -- Refreshing spring water - [ Required for kettle of stone soup ]
-			[187812] = true -- Empty Kettle - [ Required for kettle of stone soup ]
+
 		}
 	},
 	["Fish"] = {
@@ -51,14 +39,7 @@ db.Filters = {
 		title = "Fish",
 		items = {
 			-- ID,	--Item name
-			[173032] = true, -- Lost Sole
-			[173033] = true, -- Iridescent Amberjack
-			[173034] = true, -- Silvergill Pike
-			[173035] = true, -- Pocked Bonefish
-			[173036] = true, -- Spinefin Piranha
-			[173037] = true, -- Elysian Thade
-			[174327] = true, -- Malformed Gnasher
-			[187702] = true -- Precurser Placoderm
+
 		}
 	},
 	["Ore"] = {
@@ -67,7 +48,16 @@ db.Filters = {
 		title = "Ore",
 		items = {
 			-- ID  = true,		--Item name
-			[171841] = true -- Shaded Stone - [ Required for kettle of stone soup ]
+
+		}
+	},
+	["Cloth"] = {
+		uiName = Expansion .. " Tailoring",
+		uiDesc = "Cloth found in " .. Expansion,
+		title = "Cloth",
+		items = {
+			-- ID  = true,		--Item name
+			[193050] = true, -- Tattered Wildercloth
 		}
 	},
 	["Elemental"] = {
