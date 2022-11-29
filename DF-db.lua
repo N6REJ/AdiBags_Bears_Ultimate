@@ -88,6 +88,7 @@ db.Filters = {
 			-- ID  = true,		--Item name
 			[191384] = true, -- Aerated Mana Potion
 			[191393] = true, -- Potion of the Hushed Zephyr
+			[191378] = true, -- Refreshing Healing Potion
 		}
 	},
 	["Elemental"] = {
