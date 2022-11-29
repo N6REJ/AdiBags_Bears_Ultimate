@@ -273,8 +273,8 @@ db.Filters = {
     },
     ["Zone_Reagents"] = {
         uiName = "Special Reagents",
-        uiDesc = "Special reagents from Zerith Mortis in " .. Expansion,
-        title = "ZM Reagents",
+        uiDesc = "Special reagents from " .. Expansion,
+        title = "SL Mats",
         items = {
             -- ID    = true,    --Item name
             [187701] = true, -- Protogenic Pelt

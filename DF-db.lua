@@ -53,6 +53,9 @@ db.Filters = {
 			[193394] = true, -- Serevite Ore
 			[193395] = true, -- Serevite Ore
 			[193396] = true, -- Serevite Ore
+			[189143] = true, -- Draconium Ore 1
+			[188658] = true, -- Draconium Ore 2
+			[190311] = true, -- Draconium Ore 3
 
 			-- Cooking!!!!!!
 			[197754] = true, -- Cooking reagent!!
@@ -104,13 +107,32 @@ db.Filters = {
 			[190316] = true, -- Awakened Fire
 		}
 	},
-	["Crafting_Reagents"] = {
-		uiName = Expansion .. " Crafting Reagents",
-		uiDesc = "Assorted crafting reagents used in " .. Expansion,
-		title = "Crafting Reagent",
+	["Crafted_Reagents"] = {
+		uiName = Expansion .. " Crafted Reagents",
+		uiDesc = "Assorted crafted reagents used in " .. Expansion,
+		title = "Crafted Reagents",
+		items = {
+			-- ID  = true,		--Item name
+			[191511] = true, -- Stable Fluidic Draconium 1
+			[191512] = true, -- Stable Fluidic Draconium 2
+			[191513] = true, -- Stable Fluidic Draconium 3
+			[190455] = true, -- Concentrated Primal Focus
+			[198046] = true, -- Concentrated Primal Infusion
+			[197921] = true, -- Primal Infusion
+
+		}
+	},
+	["Zone_Reagents"] = {
+		uiName = "Special Reagents",
+		uiDesc = "Special reagents from " .. Expansion,
+		title = "DF Mats",
 		items = {
 			-- ID  = true,		--Item name
 			[190454] = true, -- Primal Chaos
+			[202122] = true, -- Primal Chaos Cluster
+			[200686] = true, -- Primal Focus
+			[190456] = true, -- Artisan's Mettle
+
 		}
 	}
 }
