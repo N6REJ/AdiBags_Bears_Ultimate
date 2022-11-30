@@ -23,7 +23,7 @@ db.Filters = {
 		title = "Meat",
 		items = {
 			-- ID  = true,		--Item name
-			[197741] = true -- Maybe meat
+			[197741] = true,-- Maybe meat
 		}
 	},
 	["Vendor_Reagents"] = {
@@ -59,7 +59,7 @@ db.Filters = {
 			[188658] = true, -- Draconium Ore 2
 			[190311] = true, -- Draconium Ore 3
 			-- Cooking!!!!!!
-			[197754] = true -- Cooking reagent!!
+			[197754] = true,-- Cooking reagent!!
 		}
 	},
 	["Cloth"] = {
@@ -69,7 +69,7 @@ db.Filters = {
 		items = {
 			-- ID  = true,		--Item name
 			[193050] = true, -- Tattered Wildercloth
-			[193922] = true -- Wildercloth
+			[193922] = true,-- Wildercloth
 		}
 	},
 	["Alchemy"] = {
@@ -78,7 +78,7 @@ db.Filters = {
 		title = "Alchemy",
 		items = {
 			-- ID  = true,		--Item name
-			[191396] = true -- Potion of Gusts
+			[191396] = true,-- Potion of Gusts
 		}
 	},
 	["Pots"] = {
@@ -89,7 +89,7 @@ db.Filters = {
 			-- ID  = true,		--Item name
 			[191384] = true, -- Aerated Mana Potion
 			[191393] = true, -- Potion of the Hushed Zephyr
-			[191378] = true -- Refreshing Healing Potion
+			[191378] = true,-- Refreshing Healing Potion
 		}
 	},
 	["Elemental"] = {
@@ -106,7 +106,7 @@ db.Filters = {
 			[190321] = true, -- Awakened Fire
 			[190327] = true, -- Awakened Air
 			[190329] = true, -- Awakened Frost
-			[190316] = true -- Awakened Fire
+			[190316] = true, -- Awakened Fire
 		}
 	},
 	["Crafted_Reagents"] = {
@@ -120,7 +120,10 @@ db.Filters = {
 			[191513] = true, -- Stable Fluidic Draconium 3
 			[190455] = true, -- Concentrated Primal Focus
 			[198046] = true, -- Concentrated Primal Infusion
-			[197921] = true -- Primal Infusion
+			[197921] = true,-- Primal Infusion
+			[194728] = true,-- Fiery Spirit 1
+			[194727] = true,-- Fiery Spirit 2
+			[194729] = true,-- Fiery Spirit 3
 		}
 	},
 	["Zone_Reagents"] = {
@@ -132,7 +135,7 @@ db.Filters = {
 			[190454] = true, -- Primal Chaos
 			[202122] = true, -- Primal Chaos Cluster
 			[200686] = true, -- Primal Focus
-			[190456] = true -- Artisan's Mettle
+			[190456] = true,-- Artisan's Mettle
 		}
 	}
 }
