@@ -36,6 +36,7 @@ db.Filters = {
 
 			-- Inscription
 			[194784] = true, -- Glittering Parchment
+			[197752] = true, -- Conveniently Packaged Ingredients
 		}
 	},
 	--[[	["Fish"] = {
