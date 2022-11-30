@@ -24,6 +24,7 @@ db.Filters = {
 		items = {
 			-- ID  = true,		--Item name
 			[197741] = true,-- Maybe meat
+			[197747] = true,-- Mighty Mammoth Ribs
 		}
 	},
 	["Vendor_Reagents"] = {
