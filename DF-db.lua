@@ -28,6 +28,25 @@ db.Filters = {
 			[197755] = true, -- Lava beetle
 		}
 	},
+	["Herb"] = {
+		uiName = Expansion .. " Herbs",
+		uiDesc = "Herbs found in " .. Expansion,
+		title = "Herbs",
+		items = {-- ID,	--Item name
+			[191460] = true, -- Hochenblume 1
+			[191461] = true, -- Hochenblume 2
+			[191462] = true, -- Hochenblume 3
+			[191464] = true, -- Saxifrage 1
+			[191465] = true, -- Saxifrage 2
+			[191466] = true, -- Saxifrage 3
+			[191470] = true, -- Writhebark 1
+			[191471] = true, -- Writhebark 2
+			[191472] = true, -- Writhebark 3
+			[191469] = true, -- Bubble poppy 3
+			[191468] = true, -- Bubble poppy 2
+			[191467] = true, -- Bubble poppy 1
+		}
+	},
 	["Vendor_Reagents"] = {
 		uiName = Expansion .. " Vendor Reagents",
 		uiDesc = "Reagents from vendors used in " .. Expansion,
