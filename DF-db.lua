@@ -146,6 +146,7 @@ db.Filters = {
 			[194728] = true,-- Fiery Spirit 1
 			[194727] = true,-- Fiery Spirit 2
 			[194729] = true,-- Fiery Spirit 3
+			[197757] = true, -- Assorted Exotic Spices
 		}
 	},
 	["Zone_Reagents"] = {
