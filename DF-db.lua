@@ -109,10 +109,13 @@ db.Filters = {
 		title = "Pots",
 		items = {
 			-- ID  = true,		--Item name
-			[191384] = true, -- Aerated Mana Potion
-			[191385] = true, -- Aerated Mana Potion
+			[191384] = true, -- Aerated Mana Potion 1
+			[191385] = true, -- Aerated Mana Potion 2
+			[191385] = true, -- Aerated Mana Potion 3
 			[191393] = true, -- Potion of the Hushed Zephyr
-			[191378] = true,    -- Refreshing Healing Potion
+			[191378] = true, -- Refreshing Healing Potion 1
+			[191379] = true, -- Refreshing Healing Potion 2
+			[191380] = true, -- Refreshing Healing Potion 3
 		}
 	},
 	["Elemental"] = {
