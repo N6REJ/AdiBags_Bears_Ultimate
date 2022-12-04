@@ -110,6 +110,7 @@ db.Filters = {
 		items = {
 			-- ID  = true,		--Item name
 			[191384] = true, -- Aerated Mana Potion
+			[191385] = true, -- Aerated Mana Potion
 			[191393] = true, -- Potion of the Hushed Zephyr
 			[191378] = true,    -- Refreshing Healing Potion
 		}
@@ -125,10 +126,12 @@ db.Filters = {
 			[190320] = true, -- Rousing Fire
 			[190451] = true, -- Rousing Ire
 			[190328] = true, -- Rousing Frost
+			[190322] = true, -- Rousing Order
 			[190321] = true, -- Awakened Fire
 			[190327] = true, -- Awakened Air
 			[190329] = true, -- Awakened Frost
 			[190316] = true, -- Awakened Fire
+			[190324] = true, -- Awakened Order
 		}
 	},
 	["Crafted_Reagents"] = {
