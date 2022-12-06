@@ -17,36 +17,6 @@ db.desc = "Items & Reagents found in " .. Expansion
 
 -- Filter info
 db.Filters = {
-	["Meat"] = {
-		uiName = Expansion .. " Meat",
-		uiDesc = "Meat found in " .. Expansion,
-		title = "Meat",
-		items = {
-			-- ID  = true,		--Item name
-			[197741] = true,    -- Maybe meat
-			[197747] = true,    -- Mighty Mammoth Ribs
-			[197755] = true, -- Lava beetle
-		}
-	},
-	["Herb"] = {
-		uiName = Expansion .. " Herbs",
-		uiDesc = "Herbs found in " .. Expansion,
-		title = "Herbs",
-		items = {-- ID,	--Item name
-			[191460] = true, -- Hochenblume 1
-			[191461] = true, -- Hochenblume 2
-			[191462] = true, -- Hochenblume 3
-			[191464] = true, -- Saxifrage 1
-			[191465] = true, -- Saxifrage 2
-			[191466] = true, -- Saxifrage 3
-			[191470] = true, -- Writhebark 1
-			[191471] = true, -- Writhebark 2
-			[191472] = true, -- Writhebark 3
-			[191469] = true, -- Bubble poppy 3
-			[191468] = true, -- Bubble poppy 2
-			[191467] = true, -- Bubble poppy 1
-		}
-	},
 	["Vendor_Reagents"] = {
 		uiName = Expansion .. " Vendor Reagents",
 		uiDesc = "Reagents from vendors used in " .. Expansion,
@@ -59,16 +29,7 @@ db.Filters = {
 			[197752] = true, -- Conveniently Packaged Ingredients
 		}
 	},
-	--[[	["Fish"] = {
-		uiName = Expansion .. " Fish",
-		uiDesc = "Fish found while fishing in " .. Expansion,
-		title = "Fish",
-		items = {
-			-- ID,	--Item name
-
-		}
-	},
---]] ["Ore"] = {
+ ["Ore"] = {
 		uiName = Expansion .. " Mining",
 		uiDesc = "Ore found in " .. Expansion,
 		title = "Ore",
@@ -82,25 +43,6 @@ db.Filters = {
 			[190311] = true, -- Draconium Ore 3
 			-- Cooking!!!!!!
 			[197754] = true,    -- Cooking reagent!!
-		}
-	},
-	["Cloth"] = {
-		uiName = Expansion .. " Tailoring",
-		uiDesc = "Cloth found in " .. Expansion,
-		title = "Cloth",
-		items = {
-			-- ID  = true,		--Item name
-			[193050] = true, -- Tattered Wildercloth
-			[193922] = true,    -- Wildercloth
-		}
-	},
-	["Alchemy"] = {
-		uiName = Expansion .. " Alchemy",
-		uiDesc = "Alchemy reagents found in " .. Expansion,
-		title = "Alchemy",
-		items = {
-			-- ID  = true,		--Item name
-			[191396] = true,    -- Potion of Gusts
 		}
 	},
 	["Pots"] = {
@@ -165,6 +107,17 @@ db.Filters = {
 			[202122] = true, -- Primal Chaos Cluster
 			[200686] = true, -- Primal Focus
 			[190456] = true,    -- Artisan's Mettle
+		}
+	},
+	["Knowledge"] = {
+		uiName = "Special Items",
+		uiDesc = "Special items to aid in crafting " .. Expansion,
+		title = "Knowledge",
+		items = {
+			-- ID  = true,		--Item name
+			[191784] = true, -- Dragon Shard of Knowledge
+			[198137] = true, -- Esoteric Dragon Shard of Knowledge
+			[200677] = true, -- Dreambloom Petal
 		}
 	}
 }
