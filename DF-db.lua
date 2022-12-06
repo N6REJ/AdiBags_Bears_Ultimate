@@ -41,8 +41,6 @@ db.Filters = {
 			[189143] = true, -- Draconium Ore 1
 			[188658] = true, -- Draconium Ore 2
 			[190311] = true, -- Draconium Ore 3
-			-- Cooking!!!!!!
-			[197754] = true,    -- Cooking reagent!!
 		}
 	},
 	["Pots"] = {
@@ -58,6 +56,9 @@ db.Filters = {
 			[191378] = true, -- Refreshing Healing Potion 1
 			[191379] = true, -- Refreshing Healing Potion 2
 			[191380] = true, -- Refreshing Healing Potion 3
+			[191396] = true, -- Potion of gusts 1
+			[191397] = true, -- Potion of gusts 2
+			[191398] = true, -- Potion of gusts 3
 		}
 	},
 	["Elemental"] = {
