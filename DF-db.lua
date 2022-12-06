@@ -122,6 +122,8 @@ db.Filters = {
 			-- ID  = true,		--Item name
 			[197760] = true, -- Mackerel Snackerel
 			[197761] = true, -- Probably Protein
+			[197770] = true, -- Zesty Water
+			[197777] = true, -- Hopefully Healthy
 		}
 	},
 	["Elemental"] = {
