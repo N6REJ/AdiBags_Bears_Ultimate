@@ -114,6 +114,16 @@ db.Filters = {
 			[191350] = true, -- Charged Phial of Alacrity 3
 		}
 	},
+	["Food"] = {
+		uiName = Expansion .. " Raiding Food",
+		uiDesc = "Food used for raiding in " .. Expansion,
+		title = "Pots",
+		items = {
+			-- ID  = true,		--Item name
+			[197760] = true, -- Mackerel Snackerel
+			[197761] = true, -- Probably Protein
+		}
+	},
 	["Elemental"] = {
 		uiName = Expansion .. " Elemental",
 		uiDesc = "Elemental reagents found in " .. Expansion,
