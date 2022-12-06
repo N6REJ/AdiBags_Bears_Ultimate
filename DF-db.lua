@@ -182,6 +182,7 @@ db.Filters = {
 			[191784] = true, -- Dragon Shard of Knowledge
 			[198137] = true, -- Esoteric Dragon Shard of Knowledge
 			[200677] = true, -- Dreambloom Petal
+			[198964] = true, -- Elementiouis Splinter
 		}
 	}
 }
