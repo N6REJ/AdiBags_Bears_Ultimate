@@ -124,6 +124,7 @@ db.Filters = {
 			[197761] = true, -- Probably Protein
 			[197770] = true, -- Zesty Water
 			[197777] = true, -- Hopefully Healthy
+			[197772] = true, -- CHurnbelly Tea
 		}
 	},
 	["Elemental"] = {
