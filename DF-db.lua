@@ -130,7 +130,7 @@ db.Filters = {
 			[197772] = true, -- CHurnbelly Tea
 		}
 	},
-	["Elemental"] = {
+--[[	["Elemental"] = {
 		uiName = Expansion .. " Elemental",
 		uiDesc = "Elemental reagents found in " .. Expansion,
 		title = "Elemental",
@@ -149,8 +149,8 @@ db.Filters = {
 			[190329] = true, -- Awakened Frost
 			[190316] = true, -- Awakened Fire
 			[190324] = true, -- Awakened Order
-		}
-	},
+		},
+--]]
 	["Crafted_Reagents"] = {
 		uiName = Expansion .. " Crafted Reagents",
 		uiDesc = "Assorted crafted reagents used in " .. Expansion,
