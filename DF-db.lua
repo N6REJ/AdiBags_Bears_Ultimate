@@ -59,6 +59,9 @@ db.Filters = {
 			[191396] = true, -- Potion of gusts 1
 			[191397] = true, -- Potion of gusts 2
 			[191398] = true, -- Potion of gusts 3
+			[191372] = true, -- Residual Neural Channeling Agent 1
+			[191373] = true, -- Residual Neural Channeling Agent 2
+			[191374] = true, -- Residual Neural Channeling Agent 3
 		}
 	},
 	["Phials"] = {
