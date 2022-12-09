@@ -17,7 +17,7 @@ db.desc = "Items & Reagents found in " .. Expansion
 
 -- Filter info
 db.Filters = {
- ["Ore"] = {
+	["Ore"] = {
 		uiName = Expansion .. " Mining",
 		uiDesc = "Ore found in " .. Expansion,
 		title = "Ore",
@@ -129,10 +129,10 @@ db.Filters = {
 			[191513] = true, -- Stable Fluidic Draconium 3
 			[190455] = true, -- Concentrated Primal Focus
 			[198046] = true, -- Concentrated Primal Infusion
-			[197921] = true,    -- Primal Infusion
-			[194728] = true,    -- Fiery Spirit 1
-			[194727] = true,    -- Fiery Spirit 2
-			[194729] = true,    -- Fiery Spirit 3
+			[197921] = true, -- Primal Infusion
+			[194728] = true, -- Fiery Spirit 1
+			[194727] = true, -- Fiery Spirit 2
+			[194729] = true, -- Fiery Spirit 3
 			[197757] = true, -- Assorted Exotic Spices
 		}
 	},
