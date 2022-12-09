@@ -15,7 +15,7 @@ local db = {}
 -- Filter info
 db.Filters = {
 	["Elemental"] = {
-		uiName = Expansion .. " Elemental",
+		uiName = "Bears " .. Expansion .. " Elemental",
 		uiDesc = "Elemental reagents found in " .. Expansion,
 		title = "Elemental",
 		items = {
