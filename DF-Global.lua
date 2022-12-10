@@ -1,4 +1,4 @@
--- AdiBags zone items - Database
+-- AdiBags Global items - Database
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 ---@type
@@ -14,8 +14,8 @@ local db = {}
 
 -- Filter info
 db.Filters = {
-	["Zone_Reagents"] = {
-		uiName = "Bears " .. Expansion .. "Zone Reagents",
+	["Global_Reagents"] = {
+		uiName = "Bears " .. Expansion .. "Global Reagents",
 		uiDesc = "Common reagents from " .. Expansion,
 		title = "DF Mats",
 		items = {
@@ -28,7 +28,17 @@ db.Filters = {
 			[201406] = true, -- Glowing Titan Orb   -- Used by many professions
 			[190453] = true, -- Spark of Ingenuity
 			[199197] = true, -- Bottled Essence
-			[194746] = true,  -- Thomas's Empty Bottle
+			[194746] = true, -- Thomas's Empty Bottle
+		}
+	},
+	["Special_Reagents"] = {
+		uiName = "Bears " .. Expansion .. "Special Reagents",
+		uiDesc = "Special reagents from " .. Expansion,
+		title = "Special",
+		items = {
+			-- ID  = true,		--Item name
+			[193360] = true, -- Centaur's Trophy Necklace
+			[194746] = true, -- Thomas's Empty Bottle
 		}
 	}
 }
