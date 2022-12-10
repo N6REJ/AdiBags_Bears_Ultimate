@@ -17,22 +17,8 @@ db.desc = "Items & Reagents found in " .. Expansion
 
 -- Filter info
 db.Filters = {
-	["Ore"] = {
-		uiName = Expansion .. " Mining",
-		uiDesc = "Ore found in " .. Expansion,
-		title = "Ore",
-		items = {
-			-- ID  = true,		--Item name
-			[190394] = true, -- Serevite Ore
-			[190395] = true, -- Serevite Ore
-			[190396] = true, -- Serevite Ore
-			[189143] = true, -- Draconium Ore 1
-			[188658] = true, -- Draconium Ore 2
-			[190311] = true, -- Draconium Ore 3
-		}
-	},
 	["Pots"] = {
-		uiName = Expansion .. " Raiding pots",
+		uiName = "Bears " .. Expansion .. " Raiding pots",
 		uiDesc = "Potions, Oils & food used for raiding in " .. Expansion,
 		title = "Pots",
 		items = {
@@ -53,7 +39,7 @@ db.Filters = {
 		}
 	},
 	["Phials"] = {
-		uiName = Expansion .. " Phials",
+		uiName = "Bears " .. Expansion .. " Phials",
 		uiDesc = "Phials used in " .. Expansion,
 		title = "Phials",
 		items = {
@@ -106,7 +92,7 @@ db.Filters = {
 		}
 	},
 	["Food"] = {
-		uiName = Expansion .. " Raiding Food",
+		uiName = "Bears " .. Expansion .. " Raiding Food",
 		uiDesc = "Food used for raiding in " .. Expansion,
 		title = "Food",
 		items = {
@@ -119,7 +105,7 @@ db.Filters = {
 		}
 	},
 	["Crafted_Reagents"] = {
-		uiName = Expansion .. " Crafted Reagents",
+		uiName = "Bears " .. Expansion .. " Crafted Reagents",
 		uiDesc = "Assorted crafted reagents used in " .. Expansion,
 		title = "Crafted Reagents",
 		items = {

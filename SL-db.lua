@@ -18,7 +18,7 @@ db.desc = "Reagents found in " .. Expansion
 -- Filter info
 db.Filters = {
     ["Meat"] = {
-        uiName = Expansion .. " Meat",
+        uiName = "Bears " .. Expansion .. " Meat",
         uiDesc = "Meat found in " .. Expansion,
         title = "Meat",
         items = {
@@ -32,7 +32,7 @@ db.Filters = {
         }
     },
     ["Fish"] = {
-        uiName = Expansion .. " Fish",
+        uiName = "Bears " .. Expansion .. " Fish",
         uiDesc = "Fish found while fishing in " .. Expansion,
         title = "Fish",
         items = {
@@ -48,7 +48,7 @@ db.Filters = {
         }
     },
     ["Ore"] = {
-        uiName = Expansion .. " Mining",
+        uiName = "Bears " .. Expansion .. " Mining",
         uiDesc = "Ore found in " .. Expansion,
         title = "Ore",
         items = {
@@ -65,7 +65,7 @@ db.Filters = {
         }
     },
     ["Cloth"] = {
-        uiName = Expansion .. " Tailoring cloth",
+        uiName = "Bears " .. Expansion .. " Tailoring cloth",
         uiDesc = "Cloth for tailoring in " .. Expansion,
         title = "Cloth",
         items = {
@@ -77,7 +77,7 @@ db.Filters = {
         }
     },
     ["Herbs"] = {
-        uiName = Expansion .. " Herbs",
+        uiName = "Bears " .. Expansion .. " Herbs",
         uiDesc = "Herbs found in " .. Expansion,
         title = "Herbs",
         items = {
@@ -92,7 +92,7 @@ db.Filters = {
         }
     },
     ["Ground"] = {
-        uiName = Expansion .. " Alchemy Extracts",
+        uiName = "Bears " .. Expansion .. " Alchemy Extracts",
         uiDesc = "Ground reagents made from herbs found in " .. Expansion,
         title = "Ground Herbs",
         items = {
@@ -106,7 +106,7 @@ db.Filters = {
         }
     },
     ["Transmute"] = {
-        uiName = Expansion .. " Alchemy Transmute",
+        uiName = "Bears " .. Expansion .. " Alchemy Transmute",
         uiDesc = "Transmuted items made from herbs found in " .. Expansion,
         title = "Transmute",
         items = {
@@ -116,7 +116,7 @@ db.Filters = {
         }
     },
     ["Enchanting"] = {
-        uiName = Expansion .. " Enchanting",
+        uiName = "Bears " .. Expansion .. " Enchanting",
         uiDesc = db.desc,
         title = "Enchanting",
         items = {
@@ -130,7 +130,7 @@ db.Filters = {
         }
     },
     ["Bait"] = {
-        uiName = Expansion .. " Bait",
+        uiName = "Bears " .. Expansion .. " Bait",
         uiDesc = "Bait found while fishing in " .. Expansion,
         title = "Bait",
         items = {
@@ -145,7 +145,7 @@ db.Filters = {
         },
     },
     ["Ink"] = {
-        uiName = Expansion .. " Inscription",
+        uiName = "Bears " .. Expansion .. " Inscription",
         uiDesc = "Ink made in " .. Expansion,
         title = "Ink",
         items = {
@@ -156,7 +156,7 @@ db.Filters = {
         },
     },
     ["Jewels"] = {
-        uiName = Expansion .. " Jewelcrafting",
+        uiName = "Bears " .. Expansion .. " Jewelcrafting",
         uiDesc = "Jewelcrafting reagents for " .. Expansion,
         title = "Jewels",
         items = {
@@ -168,7 +168,7 @@ db.Filters = {
         }
     },
     ["Gems"] = {
-        uiName = Expansion .. " Jewelcrafting Gems",
+        uiName = "Bears " .. Expansion .. " Jewelcrafting Gems",
         uiDesc = "Jewelcrafting reagents for " .. Expansion,
         title = "Gems",
         items = {
@@ -179,7 +179,7 @@ db.Filters = {
         }
     },
     ["Essence"] = {
-        uiName = Expansion .. " Jewelcrafting Essence",
+        uiName = "Bears " .. Expansion .. " Jewelcrafting Essence",
         uiDesc = "Jewelcrafting reagents for " .. Expansion,
         title = "Essence",
         items = {
@@ -191,7 +191,7 @@ db.Filters = {
         }
     },
     ["Leather"] = {
-        uiName = Expansion .. " Leatherworking",
+        uiName = "Bears " .. Expansion .. " Leatherworking",
         uiDesc = "Reagents for Leatherworking in " .. Expansion,
         title = "Leather",
         items = {
@@ -211,7 +211,7 @@ db.Filters = {
 
 
     ["Vendor_Reagents"] = {
-        uiName = Expansion .. " Vendor Reagents",
+        uiName = "Bears " .. Expansion .. " Vendor Reagents",
         uiDesc = "Reagents purchased from vendor for use in " .. Expansion,
         title = "Vendor Reagents",
         items = {
@@ -241,7 +241,7 @@ db.Filters = {
         }
     },
     ["Crafted_Reagents"] = {
-        uiName = Expansion .. " Crafted Reagents",
+        uiName = "Bears " .. Expansion .. " Crafted Reagents",
         uiDesc = "Reagents made by crafting in " .. Expansion,
         title = "Crafted Reagents",
         items = {
