@@ -28,6 +28,7 @@ db.Filters = {
 			[201406] = true, -- Glowing Titan Orb   -- Used by many professions
 			[190453] = true, -- Spark of Ingenuity
 			[199197] = true, -- Bottled Essence
+			[194746] = true,  -- Thomas's Empty Bottle
 		}
 	}
 }
