@@ -101,30 +101,12 @@ db.Filters = {
 			[197761] = true, -- Probably Protein
 			[197770] = true, -- Zesty Water
 			[197777] = true, -- Hopefully Healthy
-			[197772] = true, -- CHurnbelly Tea
-		}
-	},
-	["Crafted_Reagents"] = {
-		uiName = "Bears " .. Expansion .. " Crafted Reagents",
-		uiDesc = "Assorted crafted reagents used in " .. Expansion,
-		title = "Crafted Reagents",
-		items = {
-			-- ID  = true,		--Item name
-			[191511] = true, -- Stable Fluidic Draconium 1
-			[191512] = true, -- Stable Fluidic Draconium 2
-			[191513] = true, -- Stable Fluidic Draconium 3
-			[190455] = true, -- Concentrated Primal Focus
-			[198046] = true, -- Concentrated Primal Infusion
-			[197921] = true, -- Primal Infusion
-			[194728] = true, -- Fiery Spirit 1
-			[194727] = true, -- Fiery Spirit 2
-			[194729] = true, -- Fiery Spirit 3
-			[197757] = true, -- Assorted Exotic Spices
+			[197772] = true, -- Churnbelly Tea
 		}
 	},
 	["Knowledge"] = {
-		uiName = "Special Items",
-		uiDesc = "Special items to aid in crafting " .. Expansion,
+		uiName = Expansion .. " Knowledge Items",
+		uiDesc = "Special items to aid in crafting in" .. Expansion,
 		title = "Knowledge",
 		items = {
 			-- ID  = true,		--Item name
@@ -132,6 +114,19 @@ db.Filters = {
 			[198137] = true, -- Esoteric Dragon Shard of Knowledge
 			[200677] = true, -- Dreambloom Petal
 			[198964] = true, -- Elementiouis Splinter
+		}
+	},
+	["Tools"] = {
+		uiName = "Crafters tools",
+		uiDesc = "Special tools to aid in crafting " .. Expansion,
+		title = "Tools",
+		items = {
+			-- ID  = true,		--Item name
+			[376547] = true, -- Wildercloth Chef's Hat
+			[383551] = true, -- Chef's Smooth Rolling Pin
+			[376548] = true, -- Master's Wildercloth Chef's Hat
+			[383552] = true, -- Chef's Splendid Rolling Pin
+
 		}
 	}
 }
