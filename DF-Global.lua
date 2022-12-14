@@ -15,7 +15,7 @@ local db = {}
 -- Filter info
 db.Filters = {
 	["Global_Reagents"] = {
-		uiName = "Bears " .. Expansion .. "Global Reagents",
+		uiName = "Bears " .. Expansion .. " Global Reagents",
 		uiDesc = "Common reagents from " .. Expansion,
 		title = "DF Mats",
 		items = {
@@ -85,7 +85,7 @@ db.Filters = {
 		}
 	},
 	["Special_Reagents"] = {
-		uiName = "Bears " .. Expansion .. "Special Reagents",
+		uiName = "Bears " .. Expansion .. " Special Reagents",
 		uiDesc = "Special reagents from " .. Expansion,
 		title = "Special",
 		items = {
