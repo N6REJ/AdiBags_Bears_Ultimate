@@ -100,4 +100,7 @@ db.Filters = {
 }
 
 -- now that db is populated lets pass it on.
-addonTable.Dragonflight = db
+for _,v in ipairs(db) do
+	table.insert(addonTable.Dragonflight, v)
+end
+
