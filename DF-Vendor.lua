@@ -10,7 +10,7 @@ local E = addonTable.expansion
 local Expansion = E["Dragonflight"]
 
 -- Create addon table
-local db = {}
+local db = addonTable.Dragonflight
 
 -- Filter info
 db.Filters = {
