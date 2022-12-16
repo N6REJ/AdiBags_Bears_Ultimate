@@ -84,6 +84,27 @@ db.Filters = {
 			[193955] = true, -- Vibrant Polishing Cloth 3
 		}
 	},
+	["Elemental"] = {
+		uiName = "Bears " .. Expansion .. " Elemental",
+		uiDesc = "Elemental reagents found in " .. Expansion,
+		title = "Elemental",
+		items = {
+			-- ID  = true,		--Item name
+			[190326] = true, -- Rousing Air
+			[190315] = true, -- Rousing Earth
+			[190320] = true, -- Rousing Fire
+			[190451] = true, -- Rousing Ire
+			[190328] = true, -- Rousing Frost
+			[190322] = true, -- Rousing Order
+			[190330] = true, -- Rousing Decay
+			[190331] = true, -- Awakened Decay
+			[190321] = true, -- Awakened Fire
+			[190327] = true, -- Awakened Air
+			[190329] = true, -- Awakened Frost
+			[190316] = true, -- Awakened Fire
+			[190324] = true, -- Awakened Order
+		}
+	},
 	["Special_Reagents"] = {
 		uiName = "Bears " .. Expansion .. " Special Reagents",
 		uiDesc = "Special reagents from " .. Expansion,
