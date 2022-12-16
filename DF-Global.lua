@@ -31,6 +31,7 @@ db.Filters = {
 			[190455] = true, -- Concentrated Primal Focus
 			[198046] = true, -- Concentrated Primal Infusion
 			[197921] = true, -- Primal Infusion
+			[201400] = true, -- Aquatic Maw         -- Used by blacksmith and leatherworking
 		}
 	},
 	["Finishing_Reagents"] = {
