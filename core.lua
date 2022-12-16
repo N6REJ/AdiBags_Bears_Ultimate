@@ -89,10 +89,13 @@ for key, value in ipairs(addonTable.expansion) do
 	end
 end
 
--- Now process global databases
-for key, value in pairs(addonTable.Globaldbs) do
-	db = addonTable[value]
-	if (db ~= nil) then
-		AllFilters(db)
+-- Check if globaldbs is being used in toc
+if (addonTable.Globaldbs ~= nil) then
+	-- Now process global databases
+	for key, value in pairs(addonTable.Globaldbs) do
+		db = addonTable[value]
+		if (db ~= nil) then
+			AllFilters(db)
+		end
 	end
 end
