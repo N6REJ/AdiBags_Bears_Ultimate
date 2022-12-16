@@ -82,7 +82,7 @@ end
 
 -- START HERE
 -- This will cycle thru each expansion listed in expansion.lua and run the database for that expansion.
-for key, value in ipairs(addonTable.expansion) do
+for key, value in pairs(addonTable.expansion) do
 	db = addonTable[value]
 	if (db ~= nil) then
 		AllFilters(db)
