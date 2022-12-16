@@ -80,11 +80,19 @@ local function AllFilters(db)
 	end
 end
 
--- Start here
--- This will cycle thru each release listed in Release.lua and run the database for that release.
-for key, value in pairs(addonTable.expansion) do
+-- START HERE
+-- This will cycle thru each expansion listed in expansion.lua and run the database for that expansion.
+for key, value in ipairs(addonTable.expansion) do
 	db = addonTable[value]
-	if ( db ~= nil ) then
+	if (db ~= nil) then
+		AllFilters(db)
+	end
+end
+
+-- Now process global databases
+for key, value in pairs(addonTable.Globaldbs) do
+	db = addonTable[value]
+	if (db ~= nil) then
 		AllFilters(db)
 	end
 end
