@@ -29,8 +29,6 @@ db.Filters = {
 			[190453] = true, -- Spark of Ingenuity
 			[199197] = true, -- Bottled Essence
 			[190455] = true, -- Concentrated Primal Focus
-			[198046] = true, -- Concentrated Primal Infusion
-			[197921] = true, -- Primal Infusion
 			[201400] = true, -- Aquatic Maw         -- Used by blacksmith and leatherworking
 		}
 	},
@@ -117,6 +115,20 @@ db.Filters = {
 			[194728] = true, -- Fiery Spirit 1
 			[194727] = true, -- Fiery Spirit 2
 			[194729] = true, -- Fiery Spirit 3
+		}
+	},
+	["Optional_Reagents"] = {
+		uiName = "Bears " .. Expansion .. " Optional Reagents",
+		uiDesc = "Optional reagents from " .. Expansion,
+		title = "Optional",
+		items = {
+			-- ID  = true,		--Item name
+			[198048] = true, -- Titan Training Matrix 1
+			[198056] = true, -- Titan Training Matrix 2
+			[198058] = true, -- Titan Training Matrix 3
+			[198059] = true, -- Titan Training Matrix 4
+			[198046] = true, -- Concentrated Primal Infusion
+			[197921] = true, -- Primal Infusion
 		}
 	},
 	["Vendor_Reagents"] = {
