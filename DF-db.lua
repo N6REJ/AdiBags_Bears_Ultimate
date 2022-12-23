@@ -114,6 +114,17 @@ db.Filters = {
 			[198137] = true, -- Esoteric Dragon Shard of Knowledge
 			[200677] = true, -- Dreambloom Petal
 			[198964] = true, -- Elementiouis Splinter
+			[392944] = true, -- Draconic Treatise on Skinning
+			[383522] = true, -- Draconic Treatise on Alchemy
+			[383759] = true, -- Draconic Treatise on Inscription
+			[383523] = true, -- Draconic Treatise on Enchanting
+			[383519] = true, -- Draconic Treatise on Leatherworking
+			[383515] = true, -- Draconic Treatise on Herbalism
+			[383524] = true, -- Draconic Treatise on Jewelcrafting
+			[383516] = true, -- Draconic Treatise on Mining
+			[383520] = true, -- Draconic Treatise on Tailoring
+			[383517] = true, -- Draconic Treatise on Blacksmithing
+			[383844] = true, -- Draconic Treatise on Engineering
 		}
 	},
 	["Tools"] = {
@@ -127,6 +138,20 @@ db.Filters = {
 			[376548] = true, -- Master's Wildercloth Chef's Hat
 			[383552] = true, -- Chef's Splendid Rolling Pin
 
+		}
+	},
+	["Turn_In"] = {
+		uiName = Expansion .. " Turn in Items",
+		uiDesc = "Special items for quests in" .. Expansion,
+		title = "Turn in",
+		items = {
+			-- ID  = true,		--Item name
+			[191251] = true, -- Obsidian citadel Key Frame
+			[193201] = true, -- Obsidian citadel Key Fragment
+			[199906] = true, -- Titan Relic
+			[200071] = true, -- Sacred Tuskarr Totem
+			[200093] = true, -- Centaur Hunting Trophy
+			[199080] = true, -- Smoldering Phoenix ash
 		}
 	}
 }
