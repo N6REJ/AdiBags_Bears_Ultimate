@@ -114,6 +114,7 @@ db.Filters = {
 			[198137] = true, -- Esoteric Dragon Shard of Knowledge
 			[200677] = true, -- Dreambloom Petal
 			[198964] = true, -- Elementiouis Splinter
+			[198978] = true, -- Stupidly Effective Stitchery
 			[201023] = true, -- Draconic Treatise on Skinning
 			[194697] = true, -- Draconic Treatise on Alchemy
 			[194699] = true, -- Draconic Treatise on Inscription
