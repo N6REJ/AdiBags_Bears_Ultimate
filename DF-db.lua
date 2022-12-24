@@ -155,6 +155,7 @@ db.Filters = {
 			[200071] = true, -- Sacred Tuskarr Totem
 			[200093] = true, -- Centaur Hunting Trophy
 			[199080] = true, -- Smoldering Phoenix ash
+			[192055] = true, -- Dragon Isles Artifact
 		}
 	}
 }
