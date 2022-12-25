@@ -118,6 +118,7 @@ db.Filters = {
 			[201300] = true, -- Iridescent Ore Fragments
 			[194062] = true, -- Unyielding stone chunk
 			[198977] = true, -- Ohn'arhan Weave
+			[193900] = true, -- Prismatic Focusing Shard
 			[201023] = true, -- Draconic Treatise on Skinning
 			[194697] = true, -- Draconic Treatise on Alchemy
 			[194699] = true, -- Draconic Treatise on Inscription
