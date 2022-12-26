@@ -142,6 +142,7 @@ db.Filters = {
 			[383551] = true, -- Chef's Smooth Rolling Pin
 			[376548] = true, -- Master's Wildercloth Chef's Hat
 			[383552] = true, -- Chef's Splendid Rolling Pin
+			[191294] = true, -- Small Expedition Shovel
 		}
 	},
 	["Turn_In"] = {
