@@ -120,6 +120,7 @@ db.Filters = {
 			[198977] = true, -- Ohn'arhan Weave
 			[193900] = true, -- Prismatic Focusing Shard
 			[193891] = true, -- Experimental Substance
+			[202014] = true, -- Infused Pollen
 			[201023] = true, -- Draconic Treatise on Skinning
 			[194697] = true, -- Draconic Treatise on Alchemy
 			[194699] = true, -- Draconic Treatise on Inscription
