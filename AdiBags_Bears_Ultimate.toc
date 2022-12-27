@@ -4,11 +4,11 @@
 ## Version: @project-version@
 ## Author: BearLeeAble
 ## X-License: MIT
-## X-Curse-Project-ID:
-## X-Wago-ID:
 ## DefaultState: enabled
 ## Dependencies: AdiBags
 
 expansion.lua
+Global-dbs.lua
+DF-Global.lua
 DF-db.lua
 core.lua
