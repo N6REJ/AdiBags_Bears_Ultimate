@@ -121,6 +121,7 @@ db.Filters = {
 			[193900] = true, -- Prismatic Focusing Shard
 			[193891] = true, -- Experimental Substance
 			[202014] = true, -- Infused Pollen
+			[193897] = true, -- Reawakened Catalyst
 			[201023] = true, -- Draconic Treatise on Skinning
 			[194697] = true, -- Draconic Treatise on Alchemy
 			[194699] = true, -- Draconic Treatise on Inscription
