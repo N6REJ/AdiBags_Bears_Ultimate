@@ -165,6 +165,7 @@ db.Filters = {
 			[191294] = true, -- Small Expedition Shovel
 			[191304] = true, -- Sturdy Expedition Shovel
 		}
+	}
 }
 
 -- now that db is populated lets pass it on.
