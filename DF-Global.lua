@@ -155,7 +155,16 @@ db.Filters = {
 			[192833] = true, -- Misshapen Filigree
 			[198796] = true -- Quack-E Quack Modulator
 		}
-	}
+	},
+	["On_use_tools"] = {
+		uiName = "Bears " .. Expansion .. " On Use Tools",
+		uiDesc = "On use tools used in " .. Expansion,
+		title = "Tools",
+		items = {
+			-- ID    = true,    --Item name
+			[191294] = true, -- Small Expedition Shovel
+			[191304] = true, -- Sturdy Expedition Shovel
+		}
 }
 
 -- now that db is populated lets pass it on.
