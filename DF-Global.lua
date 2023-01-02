@@ -156,14 +156,15 @@ db.Filters = {
 			[198796] = true -- Quack-E Quack Modulator
 		}
 	},
-	["On_use_tools"] = {
-		uiName = "Bears " .. Expansion .. " On Use Tools",
-		uiDesc = "On use tools used in " .. Expansion,
+	["Tools"] = {
+		uiName = "Bears " .. Expansion .. " Tools",
+		uiDesc = "Tools used in " .. Expansion,
 		title = "Tools",
 		items = {
 			-- ID    = true,    --Item name
 			[191294] = true, -- Small Expedition Shovel
 			[191304] = true, -- Sturdy Expedition Shovel
+			[199696] = true, -- Iskaaran Ice Axe ( used for ice fishing )
 		}
 	}
 }
