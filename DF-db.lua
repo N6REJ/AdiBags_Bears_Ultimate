@@ -575,6 +575,9 @@ db.Filters = {
 			[198715] = true, -- Runed Draconium Rod
 			[198716] = true, -- Runed Khaz'gorite Rod
 			[201601] = true, -- Runed Serevite Rod
+
+			-- old item but useful
+			[132514] = true, -- Auto-Hammer
 		}
 	},
 	["Turn_In"] = {
