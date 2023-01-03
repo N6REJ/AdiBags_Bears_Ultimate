@@ -23,6 +23,7 @@ db.Filters = {
 		title = "Pots",
 		items = {
 			-- ID  = true,		--Item name
+			[191377] = true, -- Suspension of spores
 			[201438] = true, -- Weary Sands
 			[201436] = true, -- Temporally-Locked Sands
 			[201428] = true, -- Quicksilver Sands
