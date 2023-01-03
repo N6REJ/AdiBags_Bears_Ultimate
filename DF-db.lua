@@ -579,11 +579,14 @@ db.Filters = {
 			-- ID  = true,		--Item name
 			[191251] = true, -- Obsidian citadel Key Frame
 			[193201] = true, -- Obsidian citadel Key Fragment
+			[191264] = true, -- Restored Obsidian Key
 			[199906] = true, -- Titan Relic
 			[200071] = true, -- Sacred Tuskarr Totem
 			[200093] = true, -- Centaur Hunting Trophy
-			-- [199080] = true, -- Smoldering Phoenix ash  -- Doesn't appear to be used for anything
 			[192055] = true, -- Dragon Isles Artifact
+			[200224] = true, -- Mark of Sargha
+			[201411] = true, -- Ancient Vault Artifact
+			[201991] = true, -- Sargha's Signet
 		}
 	}
 }
