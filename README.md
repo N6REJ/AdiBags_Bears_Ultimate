@@ -10,6 +10,8 @@
 [![curse](https://img.shields.io/badge/Curseforge_Project_ID:-818527-purple)](https://www.curseforge.com/wow/addons/adibags_bears_Ultimate)
 [![requires](https://img.shields.io/badge/Requires-AdiBags-brown)](https://www.curseforge.com/wow/addons/adibags)
 
+![image](https://user-images.githubusercontent.com/1850089/215004873-840fb4f3-0545-4efa-b350-71db0104f821.png)
+
 Sorts various stuff into their own categories, starting with Dragonflight.
 
 This addon is for special items that don't fit as a profession reagent but I feel would be nice to be catergorized.
