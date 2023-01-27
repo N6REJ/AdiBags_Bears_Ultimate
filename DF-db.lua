@@ -597,6 +597,19 @@ db.Filters = {
 			[201411] = true, -- Ancient Vault Artifact
 			[201991] = true, -- Sargha's Signet
 		}
+	},
+	["Trinket"] = {
+		uiName = Expansion .. " Trinket reagents",
+		uiDesc = "Special items for 'Unstable Elemental Confluence' in" .. Expansion,
+		title = "Trinket",
+		items = {
+			-- ID  = true,		--Item name
+			[199836] = true, -- Dimmed Primeval Fire
+			[199838] = true, -- Dimmed Primeval Storm
+			[199839] = true, -- Dimmed Primeval Water
+			[199837] = true, -- Dimmed Primeval Earth
+
+		}
 	}
 }
 

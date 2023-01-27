@@ -1,5 +1,5 @@
-## Interface: 100002
-## X-Interface: 100002
+## Interface: 100005
+## X-Interface: 100005
 ## Title: AdiBags - Bears Ultimate
 ## Version: @project-version@
 ## Author: BearLeeAble
