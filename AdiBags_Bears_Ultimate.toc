@@ -2,8 +2,10 @@
 ## X-Interface: 100005
 ## Title: AdiBags - Bears Ultimate
 ## Version: @project-version@
-## Author: BearLeeAble
+## Author: Bearesquishy
 ## X-License: MIT
+## X-Curse-Project-ID: 818527
+## X-Wago-ID:  WqKQYEKx
 ## DefaultState: enabled
 ## Dependencies: AdiBags
 
