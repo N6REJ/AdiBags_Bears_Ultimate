@@ -6,8 +6,8 @@
 [![GitHub release](https://img.shields.io/github/release/N6REJ/AdiBags_Bears_Ultimate.svg)](https://GitHub.com/N6REJ/AdiBags_Bears_Ultimate/releases/)
 
 ![Bears](https://img.shields.io/badge/Supports-Dragonflight-0B68D7)
-![10.0.2](https://img.shields.io/badge/Ready_for-10.0.2-darkgreen)
-[![curse](https://img.shields.io/badge/Curseforge_Project_ID:-xxxx-purple)](https://www.curseforge.com/wow/addons/adibags_bears_Ultimate)
+![10.0.5](https://img.shields.io/badge/Ready_for-10.0.5-darkgreen)
+[![curse](https://img.shields.io/badge/Curseforge_Project_ID:-818527-purple)](https://www.curseforge.com/wow/addons/adibags_bears_Ultimate)
 [![requires](https://img.shields.io/badge/Requires-AdiBags-brown)](https://www.curseforge.com/wow/addons/adibags)
 
 Sorts various stuff into their own categories, starting with Dragonflight.
