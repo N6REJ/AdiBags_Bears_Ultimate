@@ -72,6 +72,7 @@ db.Filters = {
 			[191370] = true, -- Potion of Withering Vitality 2
 			[191371] = true, -- Potion of Withering Vitality 3
 			[5512] = true, -- Healthstone
+			[113509] = true, -- Conjured Mana bun
 		}
 	},
 	["Phials"] = {
