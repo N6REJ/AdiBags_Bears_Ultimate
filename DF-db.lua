@@ -598,6 +598,7 @@ db.Filters = {
 			[200224] = true, -- Mark of Sargha
 			[201411] = true, -- Ancient Vault Artifact
 			[201991] = true, -- Sargha's Signet
+			[191784] = true, -- Dragon shard of knowledge
 		}
 	},
 	["Trinket"] = {
