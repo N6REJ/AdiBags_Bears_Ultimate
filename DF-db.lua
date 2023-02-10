@@ -608,6 +608,20 @@ db.Filters = {
 			[199837] = true, -- Dimmed Primeval Earth
 
 		}
+	},
+	["API"] = {
+		uiName = Expansion .. " API Fix",
+		uiDesc = "Items that are miscategorized in" .. Expansion,
+		title = "Disenchant",
+		items = {
+			-- ID  = true,		--Item name
+			[201356] = true, -- Glimmer of Fire
+			[201357] = true, -- Glimmer of Frost
+			[201358] = true, -- Glimmer of Air
+			[201359] = true, -- Glimmer of Earth
+			[201360] = true, -- Glimmer of Order
+
+		}
 	}
 }
 
