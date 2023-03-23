@@ -634,6 +634,7 @@ db.Filters = {
 			[203702] = true, -- Experimental Melder
 			[204360] = true, -- Strange Petrified Orb
 			[204369] = true, -- Scrap of Black Dragonscales
+			[202196] = true, -- Zskera Vault Key
 		}
 	}
 }
