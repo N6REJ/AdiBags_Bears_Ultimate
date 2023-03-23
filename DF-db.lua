@@ -630,6 +630,10 @@ db.Filters = {
 		items = {
 			-- ID  = true,		--Item name
 			[204276] = true, -- Untapped Forbidden Knowledge
+			[203703] = true, -- Prismatic Fragment
+			[203702] = true, -- Experimental Melder
+			[204360] = true, -- Strange Petrified Orb
+			[204369] = true, -- Scrap of Black Dragonscales
 		}
 	}
 }
