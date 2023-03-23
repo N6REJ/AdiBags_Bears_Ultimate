@@ -622,6 +622,15 @@ db.Filters = {
 			[201360] = true, -- Glimmer of Order
 
 		}
+	},
+	["Special"] = {
+		uiName = Expansion .. " Special Items",
+		uiDesc = "Items that are for unique things in" .. Expansion,
+		title = "Special",
+		items = {
+			-- ID  = true,		--Item name
+			[204276] = true, -- Untapped Forbidden Knowledge
+		}
 	}
 }
 
