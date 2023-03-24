@@ -630,11 +630,30 @@ db.Filters = {
 		items = {
 			-- ID  = true,		--Item name
 			[204276] = true, -- Untapped Forbidden Knowledge
+			[202196] = true, -- Zskera Vault Key
+		}
+	},
+	["Combine"] = {
+		uiName = Expansion .. " combine Items",
+		uiDesc = "Items that need to be combined in" .. Expansion,
+		title = "Combine",
+		items = {
+			-- ID  = true,		--Item name
 			[203703] = true, -- Prismatic Fragment
 			[203702] = true, -- Experimental Melder
 			[204360] = true, -- Strange Petrified Orb
 			[204369] = true, -- Scrap of Black Dragonscales
-			[202196] = true, -- Zskera Vault Key
+			[204366] = true, -- Egg of unknown Contents
+			[204352] = true, -- Leftover Elemental Slime
+		}
+	},
+	["Stone"] = {
+		uiName = Expansion .. " Stone Items",
+		uiDesc = "Primordial stone items in" .. Expansion,
+		title = "Stone",
+		items = {
+			-- ID  = true,		--Item name
+			[204575] = true, -- Condensed Earh Magic
 		}
 	}
 }
