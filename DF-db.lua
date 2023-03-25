@@ -71,7 +71,7 @@ db.Filters = {
 			[191369] = true, -- Potion of Withering Vitality 1
 			[191370] = true, -- Potion of Withering Vitality 2
 			[191371] = true, -- Potion of Withering Vitality 3
-			[5512] = true, -- Healthstone
+			[5512] = true, -- HealthStone
 			[113509] = true, -- Conjured Mana bun
 		}
 	},
@@ -305,7 +305,7 @@ db.Filters = {
 			[193903] = true, -- Watcher Power Core
 			[193904] = true, -- Phoenix Feather Quill
 			[193905] = true, -- Iskaaran Trading Ledger
-			[193907] = true, -- Chipped Tyrstone
+			[193907] = true, -- Chipped TyrStone
 			[193909] = true, -- Ancient Gem Fragments
 			[193910] = true, -- Molted Dragon Scales
 			[193913] = true, -- Preserved Animal Parts
@@ -649,11 +649,41 @@ db.Filters = {
 	},
 	["Stone"] = {
 		uiName = Expansion .. " Stone Items",
-		uiDesc = "Primordial stone items in" .. Expansion,
+		uiDesc = "Primordial Stone items in" .. Expansion,
 		title = "Stone",
 		items = {
 			-- ID  = true,		--Item name
-			[204575] = true, -- Condensed Earh Magic
+			[204575] = true, -- Condensed Earth Magic
+			[204577] = true, -- Condensed nature magic
+			[204578] = true, -- Condensed Arcane Magic
+			[204574] = true, -- Condensed Frost Magic
+			[204576] = true, -- Condensed Shadow Magic
+			[204579] = true, -- Condensed Necromantic Magic
+			[204573] = true, -- Condensed Fire Magic
+			[204030] = true, -- Wind Sculpted Stone
+			[204012] = true, -- Cold Frost Stone
+			[204010] = true, -- Deluging Water Stone
+			[204027] = true, -- Desirous Blood Stone
+			[204001] = true, -- Echoing Thunder Stone
+			[204005] = true, -- Entropic Fel Stone
+			[204013] = true, -- Exuding Steam Stone
+			[204002] = true, -- Flame Licked Stone
+			[204011] = true, -- Freezing Ice Stone
+			[204009] = true, -- Gleaming Iron Stone
+			[204019] = true, -- Harmonic Music Stone
+			[204018] = true, -- Humming Arcane Stone
+			[204006] = true, -- Indomitable Earth Stone
+			[204021] = true, -- Necromantic Death Stone
+			[204025] = true, -- Obscure Pastel Stone
+			[204022] = true, -- Pestilent Plague Stone
+			[204029] = true, -- Prophetic Twilight Stone
+			[204003] = true, -- Raging Magma Stone
+			[204004] = true, -- Searing Smokey Stone
+			[204007] = true, -- Shining obsidian Stone
+			[204014] = true, -- Sparkling mana Stone
+			[204000] = true, -- Storm infused Stone
+			[204015] = true, -- Swirling Mojo Stone
+			[204020] = true, -- Wild spirit Stone
 		}
 	}
 }
