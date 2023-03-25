@@ -23,5 +23,8 @@ They include but are not limited to..
 5) Trinket reagents
 6) Knowledge
 7) Items to turn in
+8) Primordial Stones
+9) Special items such as Zserka vault key
+10) Forbidden reach combine items.
 
 If something is not here that you feel would be a good fit or if you find a bug, feel free to create an [Issue](http://github.com/N6REJ/AdiBags_Bears_Ultimate/issues)
