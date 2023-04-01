@@ -594,6 +594,7 @@ db.Filters = {
 			[201411] = true, -- Ancient Vault Artifact
 			[201991] = true, -- Sargha's Signet
 			[191784] = true, -- Dragon shard of knowledge
+			[203701] = true, -- Neltharion Gift Token
 		}
 	},
 	["Trinket"] = {
