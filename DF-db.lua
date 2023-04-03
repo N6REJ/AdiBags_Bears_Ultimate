@@ -632,6 +632,7 @@ db.Filters = {
 			-- ID  = true,		--Item name
 			[204276] = true, -- Untapped Forbidden Knowledge
 			[202196] = true, -- Zskera Vault Key
+			[204439] = true, -- Research Chest Key
 		}
 	},
 	["Combine"] = {
