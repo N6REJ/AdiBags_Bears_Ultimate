@@ -595,6 +595,7 @@ db.Filters = {
 			[201991] = true, -- Sargha's Signet
 			[191784] = true, -- Dragon shard of knowledge
 			[203701] = true, -- Neltharion Gift Token
+			[202872] = true, -- Token of Blessing
 		}
 	},
 	["Trinket"] = {
