@@ -577,6 +577,7 @@ db.Filters = {
 			[203715] = true, -- Oozing Gold
 			[203704] = true, -- Stone Dissolver
 			[203720] = true, -- Restorative Water
+			[203722] = true, -- Experimental Dragon Pack
 
 			-- old item but useful
 			[132514] = true, -- Auto-Hammer
