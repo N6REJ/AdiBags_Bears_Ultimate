@@ -695,6 +695,15 @@ db.Filters = {
 			[204015] = true, -- Swirling Mojo Stone
 			[204020] = true, -- Wild spirit Stone
 		}
+	},
+	["Artisan"] = {
+		uiName = "Bears " .. Expansion .. " Artisan curio items",
+		uiDesc = "Artisan items found in " .. Expansion,
+		title = "Artisan",
+		items = {
+			-- ID,	--Item name
+			[203417] = true, -- Razor-sharp Animal Bone
+		}
 	}
 }
 
