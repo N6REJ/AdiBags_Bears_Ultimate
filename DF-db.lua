@@ -573,6 +573,7 @@ db.Filters = {
 			[198716] = true, -- Runed Khaz'gorite Rod
 			[201601] = true, -- Runed Serevite Rod
 			[204443] = true, -- Blacksteel Hammer
+			[203705] = true, -- Obsidian Vial
 
 			-- old item but useful
 			[132514] = true, -- Auto-Hammer
