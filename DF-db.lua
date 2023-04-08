@@ -573,7 +573,10 @@ db.Filters = {
 			[198716] = true, -- Runed Khaz'gorite Rod
 			[201601] = true, -- Runed Serevite Rod
 			[204443] = true, -- Blacksteel Hammer
-			[203705] = true, -- Obsidian Vial
+			[203705] = true, -- Empty Obsidian Vial
+			[203715] = true, -- Oozing Gold
+			[203704] = true, -- Stone Dissolver
+			[203720] = true, -- Restorative Water
 
 			-- old item but useful
 			[132514] = true, -- Auto-Hammer
