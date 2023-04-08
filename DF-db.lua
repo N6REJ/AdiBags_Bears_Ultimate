@@ -578,6 +578,7 @@ db.Filters = {
 			[203704] = true, -- Stone Dissolver
 			[203720] = true, -- Restorative Water
 			[203722] = true, -- Experimental Dragon Pack
+			[203718] = true, -- Vial of flames
 
 			-- old item but useful
 			[132514] = true, -- Auto-Hammer
