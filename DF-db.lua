@@ -132,6 +132,9 @@ db.Filters = {
 			[191348] = true, -- Charged Phial of Alacrity 1
 			[191349] = true, -- Charged Phial of Alacrity 2
 			[191350] = true, -- Charged Phial of Alacrity 3
+			[194817] = true, -- Howling rune 1
+			[194819] = true, -- Howling rune 2
+			[194820] = true, -- Howling rune 3
 		}
 	},
 	["Food"] = {
