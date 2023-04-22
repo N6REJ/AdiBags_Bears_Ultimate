@@ -3,7 +3,7 @@
 -- Source on GitHub: https://n6rej.github.io
 ---@type
 ---
-local addonTable = ...
+local addonName, addonTable = ...
 
 -- Get the common name for Release
 local E = addonTable.expansion
