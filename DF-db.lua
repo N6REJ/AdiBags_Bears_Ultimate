@@ -3,7 +3,7 @@
 -- Source on GitHub: https://n6rej.github.io
 ---@type
 ---
-local addonName, addonTable = ...
+local addonTable = ...
 
 -- Get the common name for Release
 local E = addonTable.expansion
@@ -582,6 +582,7 @@ db.Filters = {
 			[203720] = true, -- Restorative Water
 			[203722] = true, -- Experimental Dragon Pack
 			[203718] = true, -- Vial of flames
+			[191256] = true, -- Serevite skeleton key
 
 			-- old item but useful
 			[132514] = true, -- Auto-Hammer
