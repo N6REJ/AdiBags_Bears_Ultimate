@@ -607,6 +607,28 @@ db.Filters = {
 			[191784] = true, -- Dragon shard of knowledge
 			[203701] = true, -- Neltharion Gift Token
 			[202872] = true, -- Token of Blessing
+			-- REP Items
+			[201779] = true, -- Merithra's Blessing
+			[300287] = true, -- Iskaara Tuskarr Insignia
+			[200453] = true, -- Iskaara Tuskarr Insignia
+			[201783] = true, -- Tutaqan's Commendation
+			[200455] = true, -- Valdrakken Accord Insignia
+			[201781] = true, -- Memory of Tyr
+			[201782] = true, -- Tyr's Blessing
+			[200285] = true, -- Dragonscale Expedition Insignia
+			[201922] = true, -- Iskaara Tuskarr Insignia
+			[201923] = true, -- Maruuk Centaur Insignia
+			[200452] = true, -- Dragonscale Expedition Insignia
+			[198790] = true, -- I.O.U.
+			[200288] = true, -- Maruuk Centaur Insignia
+			[200289] = true, -- Valdrakken Accord Insignia
+			[200454] = true, -- Maruuk Centaur Insignia
+			[201921] = true, -- Dragonscale Expedition Insignia
+			[202094] = true, -- Maruuk Centaur Insignia
+			[201924] = true, -- Valdrakken Accord Insignia
+			[202093] = true, -- Valdrakken Accord Insignia
+			[202091] = true, -- Dragonscale Expedition Insignia
+			[202092] = true, -- Iskaara Tuskarr Insignia
 		}
 	},
 	["Trinket"] = {
