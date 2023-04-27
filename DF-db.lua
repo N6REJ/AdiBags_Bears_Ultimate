@@ -682,6 +682,7 @@ db.Filters = {
 			[204369] = true, -- Scrap of Black Dragonscales
 			[204366] = true, -- Egg of unknown Contents
 			[204352] = true, -- Leftover Elemental Slime
+			[204371] = true, -- Drop of Blue Dragon Magic
 		}
 	},
 	["Stone"] = {
