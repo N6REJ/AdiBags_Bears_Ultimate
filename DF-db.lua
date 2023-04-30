@@ -135,6 +135,9 @@ db.Filters = {
 			[194817] = true, -- Howling rune 1
 			[194819] = true, -- Howling rune 2
 			[194820] = true, -- Howling rune 3
+			[191327] = true, -- Iced Phial of Corrupting Rage 1
+			[191328] = true, -- Iced Phial of Corrupting Rage 2
+			[191329] = true, -- Iced Phial of Corrupting Rage 3
 		}
 	},
 	["Food"] = {
