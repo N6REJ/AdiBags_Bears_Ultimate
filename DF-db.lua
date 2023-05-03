@@ -494,6 +494,7 @@ db.Filters = {
 			[202011] = true, -- Elementally-Charged Stone
 			[202014] = true, -- Infused Pollen
 			[202016] = true, -- Saturated Bone
+			[205212] = true, -- Marrow-Ripened Slime
 		}
 	},
 	["Tools"] = {
