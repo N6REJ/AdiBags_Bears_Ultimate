@@ -635,7 +635,6 @@ db.Filters = {
 			[202091] = true, -- Dragonscale Expedition Insignia
 			[202092] = true, -- Iskaara Tuskarr Insignia
 			-- Zaralek Caverns
-			[202171] = true, -- Obsidian Flightstone
 		}
 	},
 	["Trinket"] = {
