@@ -689,6 +689,7 @@ db.Filters = {
 			[204366] = true, -- Egg of unknown Contents
 			[204352] = true, -- Leftover Elemental Slime
 			[204371] = true, -- Drop of Blue Dragon Magic
+			[204075] = true, -- Whelpling's Shadowflame Crest Fragment
 		}
 	},
 	["Stone"] = {
