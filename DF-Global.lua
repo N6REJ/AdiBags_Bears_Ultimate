@@ -31,7 +31,7 @@ db.Filters = {
 			[190455] = true, -- Concentrated Primal Focus
 			[201400] = true, -- Aquatic Maw         -- Used by blacksmith and leatherworking
 			[204217] = true, -- Unstable Elementium
-			[204075] = true, -- Whelpling's Shadowflame Crest Fragment
+			[204193] = true, -- Whelpling's Shadowflame Crest
 		}
 	},
 	["Finishing_Reagents"] = {
