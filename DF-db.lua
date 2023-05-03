@@ -634,6 +634,8 @@ db.Filters = {
 			[202093] = true, -- Valdrakken Accord Insignia
 			[202091] = true, -- Dragonscale Expedition Insignia
 			[202092] = true, -- Iskaara Tuskarr Insignia
+			-- Zaralek Caverns
+			[202171] = true, -- Obsidian Flightstone
 		}
 	},
 	["Trinket"] = {
