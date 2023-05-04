@@ -637,7 +637,7 @@ db.Filters = {
 			-- Zaralek Caverns
 			[205249] = true, -- Pungent Niffen Incense
 			[205989] = true, -- Symbol of Friendship
-			[205991] = true, -- Shinyh Token of Gratitude
+			[205991] = true, -- Shiny Token of Gratitude
 		}
 	},
 	["Trinket"] = {
