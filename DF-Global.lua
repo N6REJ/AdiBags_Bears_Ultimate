@@ -31,6 +31,19 @@ db.Filters = {
 			[190455] = true, -- Concentrated Primal Focus
 			[201400] = true, -- Aquatic Maw         -- Used by blacksmith and leatherworking
 			[204217] = true, -- Unstable Elementium
+			[204193] = true, -- Whelpling's Shadowflame Crest
+			-- Zaralek Cavern
+			[204195] = true, -- Drake's Shadowflame Crest
+			[204193] = true, -- Whelpling's Shadowflame Crest
+			[204697] = true, -- Enchanted Aspect's Shadowflame Crest
+			[204196] = true, -- Wyrm's Shadowflame Crest
+			[204194] = true, -- Aspect's Shadowflame Crest
+			[204682] = true, -- Enchanted Wyrm's Shadowflame Crest
+			[204076] = true, -- Drake's Shadowflame Crest Fragment
+			[204681] = true, -- Enchanted Whelpling's Shadowflame Crest
+			[204075] = true, -- Whelpling's Shadowflame Crest Fragment
+			[204078] = true, -- Aspect's Shadowflame Crest Fragment
+			[204077] = true, -- Wyrm's Shadowflame Crest Fragment
 		}
 	},
 	["Finishing_Reagents"] = {
@@ -128,7 +141,6 @@ db.Filters = {
 			[198056] = true, -- Titan Training Matrix 2
 			[198058] = true, -- Titan Training Matrix 3
 			[198059] = true, -- Titan Training Matrix 4
-			[204673] = true, -- Titan Training Matrix 5
 			[198046] = true, -- Concentrated Primal Infusion
 			[197921] = true, -- Primal Infusion
 		}
