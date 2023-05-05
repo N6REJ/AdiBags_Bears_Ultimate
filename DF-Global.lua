@@ -43,6 +43,7 @@ db.Filters = {
 			[204075] = true, -- Whelpling's Shadowflame Crest Fragment
 			[204078] = true, -- Aspect's Shadowflame Crest Fragment
 			[204077] = true, -- Wyrm's Shadowflame Crest Fragment
+			[204440] = true, -- Spark of Shadowflame
 		}
 	},
 	["Finishing_Reagents"] = {
