@@ -31,7 +31,6 @@ db.Filters = {
 			[190455] = true, -- Concentrated Primal Focus
 			[201400] = true, -- Aquatic Maw         -- Used by blacksmith and leatherworking
 			[204217] = true, -- Unstable Elementium
-			[204193] = true, -- Whelpling's Shadowflame Crest
 		}
 	},
 	["Finishing_Reagents"] = {
@@ -129,6 +128,7 @@ db.Filters = {
 			[198056] = true, -- Titan Training Matrix 2
 			[198058] = true, -- Titan Training Matrix 3
 			[198059] = true, -- Titan Training Matrix 4
+			[204673] = true, -- Titan Training Matrix 5
 			[198046] = true, -- Concentrated Primal Infusion
 			[197921] = true, -- Primal Infusion
 		}
