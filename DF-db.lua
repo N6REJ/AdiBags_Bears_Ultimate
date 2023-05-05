@@ -495,6 +495,7 @@ db.Filters = {
 			[202014] = true, -- Infused Pollen
 			[202016] = true, -- Saturated Bone
 			[205212] = true, -- Marrow-Ripened Slime
+			[205986] = true, -- Well-worn Kiln
 		}
 	},
 	["Tools"] = {
