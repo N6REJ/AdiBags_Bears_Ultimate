@@ -749,7 +749,7 @@ db.Filters = {
 		title = "Contract",
 		items = {
 			-- ID,	--Item name
-			[204992] = true, -- Contract Loamms
+			[204992] = true, -- Contract Loamm
 		}
 	}
 }
