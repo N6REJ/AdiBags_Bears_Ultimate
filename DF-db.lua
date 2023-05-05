@@ -742,6 +742,15 @@ db.Filters = {
 			-- ID,	--Item name
 			[203417] = true, -- Razor-sharp Animal Bone
 		}
+	},
+	["Contract"] = {
+		uiName = "Bears " .. Expansion .. " Contracts",
+		uiDesc = "Contract found in " .. Expansion,
+		title = "Contract",
+		items = {
+			-- ID,	--Item name
+			[204992] = true, -- Contract Loamms
+		}
 	}
 }
 
