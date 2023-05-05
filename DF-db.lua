@@ -496,6 +496,7 @@ db.Filters = {
 			[202016] = true, -- Saturated Bone
 			[205212] = true, -- Marrow-Ripened Slime
 			[205986] = true, -- Well-worn Kiln
+			[205987] = true, -- Brimstone Rescue Ring
 		}
 	},
 	["Tools"] = {
