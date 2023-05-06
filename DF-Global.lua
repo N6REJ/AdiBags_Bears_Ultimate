@@ -44,6 +44,7 @@ db.Filters = {
 			[204078] = true, -- Aspect's Shadowflame Crest Fragment
 			[204077] = true, -- Wyrm's Shadowflame Crest Fragment
 			[204440] = true, -- Spark of Shadowflame
+			[204985] = true, -- Barter Brick
 		}
 	},
 	["Finishing_Reagents"] = {
