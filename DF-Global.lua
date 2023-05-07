@@ -176,6 +176,7 @@ db.Filters = {
 			[191294] = true, -- Small Expedition Shovel
 			[191304] = true, -- Sturdy Expedition Shovel
 			[199696] = true, -- Iskaaran Ice Axe ( used for ice fishing )
+			[15138] = true, -- Onyxia Scale Cloak ( For shadowflame chest )
 		}
 	}
 }
