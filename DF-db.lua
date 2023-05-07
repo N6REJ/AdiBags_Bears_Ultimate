@@ -595,7 +595,6 @@ db.Filters = {
 			[203718] = true, -- Vial of flames
 			[191256] = true, -- Serevite skeleton key
 			[204278] = true, -- Neltharion's Toolkit
-			[15138] = true, -- Onyxia Scale Cloak -- For shadowflame chest
 
 			-- old item but useful
 			[132514] = true, -- Auto-Hammer
