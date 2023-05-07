@@ -698,6 +698,9 @@ db.Filters = {
 			[204352] = true, -- Leftover Elemental Slime
 			[204371] = true, -- Drop of Blue Dragon Magic
 			[204075] = true, -- Whelpling's Shadowflame Crest Fragment
+			[204078] = true, -- Aspect's Shadowflame Crest Fragment
+			[204077] = true, -- Wyrm's Shadowflame Crest Fragment
+			[204076] = true, -- Drake's Shadowflame Crest Fragment
 		}
 	},
 	["Stone"] = {
