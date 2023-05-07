@@ -641,6 +641,8 @@ db.Filters = {
 			[202093] = true, -- Valdrakken Accord Insignia
 			[202091] = true, -- Dragonscale Expedition Insignia
 			[202092] = true, -- Iskaara Tuskarr Insignia
+			[205251] = true, -- Champion's Rock Bar
+
 			-- Zaralek Caverns
 			[205249] = true, -- Pungent Niffen Incense
 			[205989] = true, -- Symbol of Friendship
