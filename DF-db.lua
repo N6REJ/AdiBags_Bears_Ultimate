@@ -501,6 +501,7 @@ db.Filters = {
 			[206030] = true, -- Exquisitely Embroidered Banner
 			[206019] = true, -- Abandoned Reserve Chute
 			[206025] = true, -- Used Medical Wrap Kit
+			[205001] = true, -- Resonating Arcane Crystal
 		}
 	},
 	["Tools"] = {
