@@ -647,6 +647,7 @@ db.Filters = {
 			[205989] = true, -- Symbol of Friendship
 			[205991] = true, -- Shiny Token of Gratitude
 			[205250] = true, -- Gift of the High Redolence
+			[205253] = true, -- Farmhand's Abundant Harvest
 		}
 	},
 	["Trinket"] = {
