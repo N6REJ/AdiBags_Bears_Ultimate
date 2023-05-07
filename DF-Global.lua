@@ -38,11 +38,7 @@ db.Filters = {
 			[204196] = true, -- Wyrm's Shadowflame Crest
 			[204194] = true, -- Aspect's Shadowflame Crest
 			[204682] = true, -- Enchanted Wyrm's Shadowflame Crest
-			[204076] = true, -- Drake's Shadowflame Crest Fragment
 			[204681] = true, -- Enchanted Whelpling's Shadowflame Crest
-			[204075] = true, -- Whelpling's Shadowflame Crest Fragment
-			[204078] = true, -- Aspect's Shadowflame Crest Fragment
-			[204077] = true, -- Wyrm's Shadowflame Crest Fragment
 			[204440] = true, -- Spark of Shadowflame
 			[204985] = true, -- Barter Brick
 		}
@@ -130,7 +126,6 @@ db.Filters = {
 			[194728] = true, -- Fiery Spirit 1
 			[194727] = true, -- Fiery Spirit 2
 			[194729] = true, -- Fiery Spirit 3
-			[204985] = true, -- Barter Brick
 		}
 	},
 	["Optional_Reagents"] = {
