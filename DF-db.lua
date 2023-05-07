@@ -497,6 +497,9 @@ db.Filters = {
 			[205212] = true, -- Marrow-Ripened Slime
 			[205986] = true, -- Well-worn Kiln
 			[205987] = true, -- Brimstone Rescue Ring
+			[204999] = true, -- Shimmering Aqueous Orb
+			[206030] = true, -- Exquisitely Embroidered Banner
+			[206019] = true, -- Abandoned Reserve Chute
 		}
 	},
 	["Tools"] = {
@@ -640,6 +643,7 @@ db.Filters = {
 			[205249] = true, -- Pungent Niffen Incense
 			[205989] = true, -- Symbol of Friendship
 			[205991] = true, -- Shiny Token of Gratitude
+			[205250] = true, -- Gift of the High Redolence
 		}
 	},
 	["Trinket"] = {
