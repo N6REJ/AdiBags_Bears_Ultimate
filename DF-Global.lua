@@ -41,6 +41,7 @@ db.Filters = {
 			[204681] = true, -- Enchanted Whelpling's Shadowflame Crest
 			[204440] = true, -- Spark of Shadowflame
 			[204985] = true, -- Barter Brick
+			[204460] = true, -- Zaralek Glowspores
 		}
 	},
 	["Finishing_Reagents"] = {
