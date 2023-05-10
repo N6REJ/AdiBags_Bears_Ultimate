@@ -179,6 +179,15 @@ db.Filters = {
 			[199696] = true, -- Iskaaran Ice Axe ( used for ice fishing )
 			[15138] = true, -- Onyxia Scale Cloak ( For shadowflame chest )
 		}
+	},
+	["Currency"] = {
+		uiName = "Bears " .. Expansion .. " Currency",
+		uiDesc = "Currency used in " .. Expansion,
+		title = "Currency",
+		items = {
+			-- ID    = true,    --Item name
+			[204715] = true, -- Unearthed Fragrant Coin
+		}
 	}
 }
 
