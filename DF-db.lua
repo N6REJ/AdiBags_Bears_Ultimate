@@ -708,6 +708,7 @@ db.Filters = {
 			[204076] = true, -- Drake's Shadowflame Crest Fragment
 			[206009] = true, -- Quroboros Tablet
 			[203683] = true, -- Ward of Fryrakk
+			[204363] = true, -- Particularly Ordinary Egg
 		}
 	},
 	["Stone"] = {
