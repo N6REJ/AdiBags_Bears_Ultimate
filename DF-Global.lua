@@ -181,8 +181,8 @@ db.Filters = {
 		}
 	},
 	["Currency"] = {
-		uiName = "Bears " .. Expansion .. " Currency",
-		uiDesc = "Currency used in " .. Expansion,
+		uiName = "Bears " .. Expansion .. "Special Currency",
+		uiDesc = "Special Currency used in " .. Expansion,
 		title = "Currency",
 		items = {
 			-- ID    = true,    --Item name
