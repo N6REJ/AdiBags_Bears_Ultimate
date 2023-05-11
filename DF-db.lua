@@ -642,6 +642,7 @@ db.Filters = {
 			[202091] = true, -- Dragonscale Expedition Insignia
 			[202092] = true, -- Iskaara Tuskarr Insignia
 			[205251] = true, -- Champion's Rock Bar
+			[205998] = true, -- Sign of Respect
 
 			-- Zaralek Caverns
 			[205249] = true, -- Pungent Niffen Incense
@@ -709,6 +710,7 @@ db.Filters = {
 			[206009] = true, -- Quroboros Tablet
 			[203683] = true, -- Ward of Fryrakk
 			[204363] = true, -- Particularly Ordinary Egg
+			[204717] = true, -- Splintered Spark of Shadowflame
 		}
 	},
 	["Stone"] = {
