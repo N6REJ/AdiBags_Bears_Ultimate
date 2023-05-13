@@ -709,7 +709,6 @@ db.Filters = {
 			[204077] = true, -- Wyrm's Shadowflame Crest Fragment
 			[204076] = true, -- Drake's Shadowflame Crest Fragment
 			[206009] = true, -- Quroboros Tablet
-			[203683] = true, -- Ward of Fryrakk
 			[204363] = true, -- Particularly Ordinary Egg
 			[204717] = true, -- Splintered Spark of Shadowflame
 		}
