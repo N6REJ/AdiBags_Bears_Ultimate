@@ -645,12 +645,13 @@ db.Filters = {
 			[205251] = true, -- Champion's Rock Bar
 			[205998] = true, -- Sign of Respect
 
-			-- Zaralek Caverns
+			-- Zaralek Caverns Rep Items
 			[205249] = true, -- Pungent Niffen Incense
 			[205989] = true, -- Symbol of Friendship
 			[205991] = true, -- Shiny Token of Gratitude
 			[205250] = true, -- Gift of the High Redolence
 			[205253] = true, -- Farmhand's Abundant Harvest
+			[205992] = true, -- Regurgitated Half-Digested Fish
 		}
 	},
 	["Trinket"] = {
