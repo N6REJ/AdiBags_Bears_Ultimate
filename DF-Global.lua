@@ -41,7 +41,6 @@ db.Filters = {
             [204682] = true, -- Enchanted Wyrm's Shadowflame Crest
             [204681] = true, -- Enchanted Whelpling's Shadowflame Crest
             [204440] = true, -- Spark of Shadowflame
-            [204460] = true, -- Zaralek Glowspores
         }
     },
     ["Finishing_Reagents"] = {
