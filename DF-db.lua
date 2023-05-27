@@ -652,6 +652,7 @@ db.Filters = {
 			[205250] = true, -- Gift of the High Redolence
 			[205253] = true, -- Farmhand's Abundant Harvest
 			[205992] = true, -- Regurgitated Half-Digested Fish
+			[205342] = true, -- Loamm Niffen Insignia
 		}
 	},
 	["Trinket"] = {
