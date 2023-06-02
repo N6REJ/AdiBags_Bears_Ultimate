@@ -693,6 +693,18 @@ db.Filters = {
 			[204439] = true, -- Research Chest Key
 		}
 	},
+	["Toys"] = {
+		uiName = Expansion .. " Toy Items",
+		uiDesc = "Special toys in" .. Expansion,
+		title = "Toys",
+		items = {
+			-- ID  = true,		--Item name
+			[203708] = true, -- Conch Whistle
+			[204405] = true, -- Stuffed Bear
+			[205686] = true, -- Clacking claw
+			[202712] = true, -- Rubber Fish
+		}
+	},
 	["Combine"] = {
 		uiName = Expansion .. " combine Items",
 		uiDesc = "Items that need to be combined in" .. Expansion,
@@ -713,6 +725,12 @@ db.Filters = {
 			[206009] = true, -- Quroboros Tablet
 			[204363] = true, -- Particularly Ordinary Egg
 			[204717] = true, -- Splintered Spark of Shadowflame
+			[206014] = true, -- Ouroboros Tablet
+			[206017] = true, -- Ouroboros Tablet
+			[206015] = true, -- Ouroboros Tablet
+			[206009] = true, -- Ouroboros Tablet
+			[206016] = true, -- Ouroboros Tablet
+			[411665] = true, -- Recover designs
 		}
 	},
 	["Stone"] = {
