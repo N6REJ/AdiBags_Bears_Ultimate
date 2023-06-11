@@ -132,9 +132,6 @@ db.Filters = {
 			[191348] = true, -- Charged Phial of Alacrity 1
 			[191349] = true, -- Charged Phial of Alacrity 2
 			[191350] = true, -- Charged Phial of Alacrity 3
-			[194817] = true, -- Howling rune 1
-			[194819] = true, -- Howling rune 2
-			[194820] = true, -- Howling rune 3
 			[191327] = true, -- Iced Phial of Corrupting Rage 1
 			[191328] = true, -- Iced Phial of Corrupting Rage 2
 			[191329] = true, -- Iced Phial of Corrupting Rage 3
@@ -789,6 +786,40 @@ db.Filters = {
 		items = {
 			-- ID,	--Item name
 			[204992] = true, -- Contract Loamm
+		}
+	},
+	["Enhancements"] = {
+		uiName = "Bears " .. Expansion .. " Enhancements",
+		uiDesc = "Enhancements found in " .. Expansion,
+		title = "Enhancements",
+		items = {
+			-- ID,	--Item name
+			[194817] = true, -- Howling rune 1
+			[194819] = true, -- Howling rune 2
+			[194820] = true, -- Howling rune 3
+			[194821] = true, -- Buzzing rune 1
+			[194822] = true, -- Buzzing rune 2
+			[194823] = true, -- Buzzing rune 3
+			[204971] = true, -- Hissing rune 1
+			[204972] = true, -- Hissing rune 2
+			[204973] = true, -- Hissing rune 3
+			[194824] = true, -- Chirping rune 1
+			[194825] = true, -- Chirping rune 2
+			[194826] = true, -- Chirping rune 3
+			[307719] = true, -- Porous Weightstone
+			[307717] = true, -- Porous Sharpening Stone
+			[191943] = true, -- primal Weightstone  1
+			[191944] = true, -- primal Weightstone  2
+			[191945] = true, -- primal Weightstone  3
+			[191933] = true, -- Primal whetstone  1
+			[191939] = true, -- Primal whetstone  2
+			[191940] = true, -- Primal whetstone  3
+			[198163] = true, -- Endless Stack of Needles 1
+			[198164] = true, -- Endless Stack of Needles 2
+			[198165] = true, -- Endless Stack of Needles 3
+			[198160] = true, -- Completely Safe Rockets 1
+			[198161] = true, -- Completely Safe Rockets 2
+			[198162] = true, -- Completely Safe Rockets 3
 		}
 	}
 }
