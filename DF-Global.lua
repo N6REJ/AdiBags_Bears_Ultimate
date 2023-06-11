@@ -166,30 +166,6 @@ db.Filters = {
             [192833] = true, -- Misshapen Filigree
             [198796] = true -- Quack-E Quack Modulator
         }
-    },
-    ["Tools"] = {
-        uiName = "Bears " .. Expansion .. " Tools",
-        uiDesc = "Tools used in " .. Expansion,
-        title = "Tools",
-        items = {
-            -- ID    = true,    --Item name
-            [191294] = true, -- Small Expedition Shovel
-            [191304] = true, -- Sturdy Expedition Shovel
-            [199696] = true, -- Iskaaran Ice Axe ( used for ice fishing )
-            [15138] = true, -- Onyxia Scale Cloak ( For shadowflame chest )
-        }
-    },
-    ["Currency"] = {
-        uiName = "Bears " .. Expansion .. "Special Currency",
-        uiDesc = "Special Currency used in " .. Expansion,
-        title = "Currency",
-        items = {
-            -- ID    = true,    --Item name
-            [204715] = true, -- Unearthed Fragrant Coin
-            [137642] = true, -- Mark of Honor
-            [1602] = true, -- Conquest
-            [204985] = true, -- Barter Brick
-        }
     }
 }
 
