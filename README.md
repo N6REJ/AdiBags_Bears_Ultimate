@@ -26,5 +26,9 @@ They include but are not limited to..
 8) Primordial Stones
 9) Special items such as Zserka vault key
 10) Forbidden reach combine items.
+11) Rep items
+12) Toys
+13) Weapon enhancements
+and more...
 
 If something is not here that you feel would be a good fit or if you find a bug, feel free to create an [Issue](http://github.com/N6REJ/AdiBags_Bears_Ultimate/issues)
