@@ -846,6 +846,15 @@ db.Filters = {
 			[204985] = true, -- Barter Brick
 			[205188] = true, -- Barter Boulder
 		}
+	},
+	["Repair"] = {
+		uiName = "Bears " .. Expansion .. "Special Repair",
+		uiDesc = "Special Repair used in " .. Expansion,
+		title = "Repair",
+		items = {
+			-- ID    = true,    --Item name
+			[49040] = true, -- Jeeves
+		}
 	}
 }
 
