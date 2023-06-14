@@ -729,6 +729,7 @@ db.Filters = {
 			[206016] = true, -- Ouroboros Tablet
 			[206011] = true, -- Design of bones
 			[411665] = true, -- Recover designs
+			[206012] = true, -- Designs of Mind
 		}
 	},
 	["Stone"] = {
