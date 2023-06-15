@@ -617,6 +617,7 @@ db.Filters = {
 			[191784] = true, -- Dragon shard of knowledge
 			[203701] = true, -- Neltharion Gift Token
 			[202872] = true, -- Token of Blessing
+			[201159] = true, -- Aloom's Token
 			-- REP Items
 			[201779] = true, -- Merithra's Blessing
 			[300287] = true, -- Iskaara Tuskarr Insignia
