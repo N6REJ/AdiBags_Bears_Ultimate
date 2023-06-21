@@ -500,6 +500,7 @@ db.Filters = {
 			[206025] = true, -- Used Medical Wrap Kit
 			[205001] = true, -- Resonating Arcane Crystal
 			[205211] = true, -- Nutrient Diluted Protofluid
+			[204480] = true, -- Inconspicuous Data miner
 		}
 	},
 	["Tools"] = {
