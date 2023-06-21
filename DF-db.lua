@@ -501,6 +501,13 @@ db.Filters = {
 			[205001] = true, -- Resonating Arcane Crystal
 			[205211] = true, -- Nutrient Diluted Protofluid
 			[204480] = true, -- Inconspicuous Data miner
+			[204469] = true, -- Misplaced Abeerrus Outflow Blueprints
+			[204471] = true, -- Defective Survival Pack
+			[204470] = true, -- Haphazardly Discarded bomb
+			[204855] = true, -- Overclocked Determination Core
+			[204850] = true, -- Handful of Khaz'gorite Bolts
+			[204853] = true, -- Discarded Dracothyst drill
+			[204475] = true, -- Busted Wormhole Generator
 		}
 	},
 	["Tools"] = {
