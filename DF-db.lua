@@ -660,6 +660,7 @@ db.Filters = {
 			[205253] = true, -- Farmhand's Abundant Harvest
 			[205992] = true, -- Regurgitated Half-Digested Fish
 			[205342] = true, -- Loamm Niffen Insignia
+			[205254] = true, -- Honorary Explorer's Compass
 		}
 	},
 	["Trinket"] = {
@@ -831,6 +832,7 @@ db.Filters = {
 			[198160] = true, -- Completely Safe Rockets 1
 			[198161] = true, -- Completely Safe Rockets 2
 			[198162] = true, -- Completely Safe Rockets 3
+
 		}
 	},
 	["Tools"] = {
