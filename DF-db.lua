@@ -741,6 +741,7 @@ db.Filters = {
 			[206011] = true, -- Design of bones
 			[411665] = true, -- Recover designs
 			[206012] = true, -- Designs of Mind
+			[206010] = true, -- Designs of the flesh
 		}
 	},
 	["Stone"] = {
