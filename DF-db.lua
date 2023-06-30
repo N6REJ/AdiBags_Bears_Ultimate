@@ -869,6 +869,18 @@ db.Filters = {
 			-- ID    = true,    --Item name
 			[49040] = true, -- Jeeves
 		}
+	},
+	["Mount"] = {
+		uiName = "Bears " .. Expansion .. "Special Mounts",
+		uiDesc = "Special Mount used in " .. Expansion,
+		title = "Mount",
+		items = {
+			-- ID    = true,    --Item name
+			-- FOR Divine Kiss of Ohn'ahra Mount
+			[201929] = true, 	-- Stolen Breath of Ohn'ahra
+			[201323] = true,	-- Essence of Awakening
+			[191507] = true,	-- Exultant Incense
+		}
 	}
 }
 
