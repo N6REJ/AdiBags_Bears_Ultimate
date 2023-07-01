@@ -880,6 +880,12 @@ db.Filters = {
 			[201929] = true, 	-- Stolen Breath of Ohn'ahra
 			[201323] = true,	-- Essence of Awakening
 			[191507] = true,	-- Exultant Incense
+
+			-- FOR Lizi's Reins Mount
+			[192615] = true, 	-- Flourescent Fluid
+			[192658] = true,	-- High-Fiber Leaf
+			[192636] = true,	-- Woolly Mountain Pelt
+			[200598] = true,	-- Meluun's Green Curry
 		}
 	}
 }
