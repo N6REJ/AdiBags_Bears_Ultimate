@@ -661,6 +661,28 @@ db.Filters = {
 			[205992] = true, -- Regurgitated Half-Digested Fish
 			[205342] = true, -- Loamm Niffen Insignia
 			[205254] = true, -- Honorary Explorer's Compass
+			[205428] = true, -- Bartered Blacksmithing Notes
+			[205439] = true, -- Bartered Blacksmithing Journal
+			[205432] = true, -- Bartered Mining Notes
+			[205443] = true, -- Bartered Mining Journal
+			[205424] = true, -- Bartered Jewelcrafting Notes
+			[205435] = true, -- Bartered Jewelcrafting Journal
+			[205427] = true, -- Bartered Enchanting Notes
+			[205438] = true, -- Bartered Enchanting Journal
+			[205426] = true, -- Bartered Leatherworking Notes
+			[205437] = true, -- Bartered Leatherworking Journal
+			[205431] = true, -- Bartered Tailoring Notes
+			[205442] = true, -- Bartered Tailoring Journal
+			[205433] = true, -- Bartered Skinning Notes
+			[205444] = true, -- Bartered Skinning Journal
+			[205425] = true, -- Bartered Engineering Notes
+			[205436] = true, -- Bartered Engineering Journal
+			[205429] = true, -- Bartered Alchemy Notes
+			[205440] = true, -- Bartered Alchemy Journal
+			[205434] = true, -- Bartered Herbalism Notes
+			[205445] = true, -- Bartered Herbalism Journal
+			[205430] = true, -- Bartered Inscription Notes
+			[205441] = true, -- Bartered Inscription Journal
 		}
 	},
 	["Trinket"] = {
@@ -867,7 +889,7 @@ db.Filters = {
 		title = "Repair",
 		items = {
 			-- ID    = true,    --Item name
-			[49040] = true, -- Jeeves
+			[49040] = true,		-- Jeeves
 		}
 	},
 	["Mount"] = {
