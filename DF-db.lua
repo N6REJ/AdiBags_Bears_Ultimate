@@ -881,6 +881,7 @@ db.Filters = {
 			[1602] = true, -- Conquest
 			[204985] = true, -- Barter Brick
 			[205188] = true, -- Barter Boulder
+			[204727] = true, -- Coveted Bauble
 		}
 	},
 	["Repair"] = {
