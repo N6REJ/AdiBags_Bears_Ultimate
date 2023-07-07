@@ -673,6 +673,7 @@ db.Filters = {
 			[202092] = true, -- Iskaara Tuskarr Insignia
 			[205251] = true, -- Champion's Rock Bar
 			[205998] = true, -- Sign of Respect
+			[200447] = true, -- Centaur Hunting Trophy
 
 			-- Zaralek Caverns Rep Items
 			[205249] = true, -- Pungent Niffen Incense
