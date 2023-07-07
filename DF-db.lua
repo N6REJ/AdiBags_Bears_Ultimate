@@ -674,6 +674,7 @@ db.Filters = {
 			[205251] = true, -- Champion's Rock Bar
 			[205998] = true, -- Sign of Respect
 			[200447] = true, -- Centaur Hunting Trophy
+			[206006] = true, -- Earth-Warder's Thanks
 
 			-- Zaralek Caverns Rep Items
 			[205249] = true, -- Pungent Niffen Incense
