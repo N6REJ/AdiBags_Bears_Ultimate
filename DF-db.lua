@@ -885,6 +885,7 @@ db.Filters = {
 			[205188] = true, -- Barter Boulder
 			[204727] = true, -- Coveted Bauble
 			[207002] = true, -- Encapsulated Destiny
+			[207030] = true, -- Dilated Time Capsule
 		}
 	},
 	["Repair"] = {
