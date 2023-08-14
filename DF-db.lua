@@ -530,6 +530,7 @@ db.Filters = {
 			[205445] = true, -- Bartered Herbalism Journal
 			[205430] = true, -- Bartered Inscription Notes
 			[205441] = true, -- Bartered Inscription Journal
+			[204987] = true, -- Lava-Forged Leatherworker's "Knife"
 		}
 	},
 	["Tools"] = {
