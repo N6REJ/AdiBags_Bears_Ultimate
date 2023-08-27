@@ -687,6 +687,7 @@ db.Filters = {
 			[205992] = true, -- Regurgitated Half-Digested Fish
 			[205342] = true, -- Loamm Niffen Insignia
 			[205254] = true, -- Honorary Explorer's Compass
+			[205216] = true, -- Gently Jostled Jewels
 		}
 	},
 	["Trinket"] = {
