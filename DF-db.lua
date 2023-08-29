@@ -688,6 +688,7 @@ db.Filters = {
 			[205342] = true, -- Loamm Niffen Insignia
 			[205254] = true, -- Honorary Explorer's Compass
 			[205216] = true, -- Gently Jostled Jewels
+			[205214] = true, -- Snubbed Snail Shells
 		}
 	},
 	["Trinket"] = {
