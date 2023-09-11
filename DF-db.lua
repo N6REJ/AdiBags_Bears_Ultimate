@@ -891,6 +891,7 @@ db.Filters = {
 			[204727] = true, -- Coveted Bauble
 			[207002] = true, -- Encapsulated Destiny
 			[207030] = true, -- Dilated Time Capsule
+			[207026] = true, -- Dreamsurge Coalescence
 		}
 	},
 	["Repair"] = {
