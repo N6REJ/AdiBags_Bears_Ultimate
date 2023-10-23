@@ -287,6 +287,7 @@ db.Filters = {
 			[202033] = true, -- Slippery Salmon
 			[202063] = true, -- Flopping Tilapia
 			[202108] = true, -- Bouncing Bass
+			[204072] = true, -- Deviously Deviled Eggs
 		}
 	},
 	["Knowledge"] = {
