@@ -921,6 +921,15 @@ db.Filters = {
 			[192636] = true,	-- Woolly Mountain Pelt
 			[200598] = true,	-- Meluun's Green Curry
 		}
+	},
+	["Runes"] = {
+		uiName = "Bears " .. Expansion .. "Special Runes",
+		uiDesc = "Special Runes used in " .. Expansion,
+		title = "Runes",
+		items = {
+			-- [ID]  = true,	--Item name
+			[204860] = true,	-- Vantus rune: Abeerrus Crucible
+		}
 	}
 }
 
