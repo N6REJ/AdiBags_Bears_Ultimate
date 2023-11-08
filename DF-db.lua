@@ -537,6 +537,8 @@ db.Filters = {
 			[204988] = true, -- Sulfur-soaked skins
 			[210462] = true, -- Plush Pillow
 			[210234] = true, -- Essence of dreams
+			[210461] = true, -- Exceedingly Soft Wildercloth
+			[210231] = true, -- Everburning Core
 		}
 	},
 	["Tools"] = {
