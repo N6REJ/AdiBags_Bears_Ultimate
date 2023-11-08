@@ -535,7 +535,7 @@ db.Filters = {
 			[205441] = true, -- Bartered Inscription Journal
 			[204987] = true, -- Lava-Forged Leatherworker's "Knife"
 			[204988] = true, -- Sulfur-soaked skins
-			[198968] = true, -- Primalist Charm
+			[210462] = true, -- Plush Pillow
 		}
 	},
 	["Tools"] = {
