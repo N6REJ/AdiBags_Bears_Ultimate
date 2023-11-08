@@ -539,6 +539,7 @@ db.Filters = {
 			[210234] = true, -- Essence of dreams
 			[210461] = true, -- Exceedingly Soft Wildercloth
 			[210231] = true, -- Everburning Core
+			[210228] = true, -- Pure Dream Water
 		}
 	},
 	["Tools"] = {
