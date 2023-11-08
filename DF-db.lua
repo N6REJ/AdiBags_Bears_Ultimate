@@ -536,6 +536,7 @@ db.Filters = {
 			[204987] = true, -- Lava-Forged Leatherworker's "Knife"
 			[204988] = true, -- Sulfur-soaked skins
 			[210462] = true, -- Plush Pillow
+			[210234] = true, -- Essence of dreams
 		}
 	},
 	["Tools"] = {
