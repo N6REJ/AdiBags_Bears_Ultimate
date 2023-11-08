@@ -1,5 +1,5 @@
-## Interface: 100007
-## X-Interface: 100007
+## Interface: 100200
+## X-Interface: 100200
 ## Title: AdiBags - Bears Ultimate
 ## Version: @project-version@
 ## Author: Bearesquishy
