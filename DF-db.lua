@@ -540,6 +540,7 @@ db.Filters = {
 			[210461] = true, -- Exceedingly Soft Wildercloth
 			[210231] = true, -- Everburning Core
 			[210228] = true, -- Pure Dream Water
+			[210757] = true, -- Scales of Remorse
 		}
 	},
 	["Tools"] = {
