@@ -701,7 +701,6 @@ db.Filters = {
 
 			-- Dreamsurge Turn_In
 			[210776] = true, -- Lesser Dream Infusion
-			[211376] = true, -- Seedbloom
 		}
 	},
 	["Trinket"] = {
@@ -905,6 +904,7 @@ db.Filters = {
 			[207002] = true, -- Encapsulated Destiny
 			[207030] = true, -- Dilated Time Capsule
 			[207026] = true, -- Dreamsurge Coalescence
+			[211376] = true, -- Seedbloom
 		}
 	},
 	["Repair"] = {
