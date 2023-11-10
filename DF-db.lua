@@ -698,6 +698,10 @@ db.Filters = {
 			[205254] = true, -- Honorary Explorer's Compass
 			[205216] = true, -- Gently Jostled Jewels
 			[205214] = true, -- Snubbed Snail Shells
+
+			-- Dreamsurge Turn_In
+			[210776] = true, -- Lesser Dream Infusion
+			[211376] = true, -- Seedbloom
 		}
 	},
 	["Trinket"] = {
