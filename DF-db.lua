@@ -72,7 +72,7 @@ db.Filters = {
 			[191370] = true, -- Potion of Withering Vitality 2
 			[191371] = true, -- Potion of Withering Vitality 3
 			[5512] = true, -- HealthStone
-			[113509] = true, -- Conjured Mana bun
+			[113509] = true -- Conjured Mana bun
 		}
 	},
 	["Phials"] = {
@@ -134,7 +134,7 @@ db.Filters = {
 			[191350] = true, -- Charged Phial of Alacrity 3
 			[191327] = true, -- Iced Phial of Corrupting Rage 1
 			[191328] = true, -- Iced Phial of Corrupting Rage 2
-			[191329] = true, -- Iced Phial of Corrupting Rage 3
+			[191329] = true -- Iced Phial of Corrupting Rage 3
 		}
 	},
 	["Food"] = {
@@ -287,7 +287,7 @@ db.Filters = {
 			[202033] = true, -- Slippery Salmon
 			[202063] = true, -- Flopping Tilapia
 			[202108] = true, -- Bouncing Bass
-			[204072] = true, -- Deviously Deviled Eggs
+			[204072] = true -- Deviously Deviled Eggs
 		}
 	},
 	["Knowledge"] = {
@@ -541,7 +541,7 @@ db.Filters = {
 			[210231] = true, -- Everburning Core
 			[210228] = true, -- Pure Dream Water
 			[210757] = true, -- Scales of Remorse
-			[2026] = true, -- Dragon Isles Tailoring Knowledge
+			[2026] = true -- Dragon Isles Tailoring Knowledge
 		}
 	},
 	["Tools"] = {
@@ -636,9 +636,12 @@ db.Filters = {
 			[191256] = true, -- Serevite skeleton key
 			[204278] = true, -- Neltharion's Toolkit
 			[199414] = true, -- Zapthrottle Soul Inhaler
-
+			[191294] = true, -- Small Expedition Shovel
+			[191304] = true, -- Sturdy Expedition Shovel
+			[199696] = true, -- Iskaaran Ice Axe ( used for ice fishing )
+			[15138] = true, -- Onyxia Scale Cloak ( For shadowflame chest )
 			-- old item but useful
-			[132514] = true, -- Auto-Hammer
+			[132514] = true -- Auto-Hammer
 		}
 	},
 	["Turn_In"] = {
@@ -687,7 +690,6 @@ db.Filters = {
 			[205998] = true, -- Sign of Respect
 			[200447] = true, -- Centaur Hunting Trophy
 			[206006] = true, -- Earth-Warder's Thanks
-
 			-- Zaralek Caverns Rep Items
 			[205249] = true, -- Pungent Niffen Incense
 			[205989] = true, -- Symbol of Friendship
@@ -699,9 +701,8 @@ db.Filters = {
 			[205254] = true, -- Honorary Explorer's Compass
 			[205216] = true, -- Gently Jostled Jewels
 			[205214] = true, -- Snubbed Snail Shells
-
 			-- Dreamsurge Turn_In
-			[210776] = true, -- Lesser Dream Infusion
+			[210776] = true -- Lesser Dream Infusion
 		}
 	},
 	["Trinket"] = {
@@ -713,8 +714,7 @@ db.Filters = {
 			[199836] = true, -- Dimmed Primeval Fire
 			[199838] = true, -- Dimmed Primeval Storm
 			[199839] = true, -- Dimmed Primeval Water
-			[199837] = true, -- Dimmed Primeval Earth
-
+			[199837] = true -- Dimmed Primeval Earth
 		}
 	},
 	["API"] = {
@@ -727,8 +727,7 @@ db.Filters = {
 			[201357] = true, -- Glimmer of Frost
 			[201358] = true, -- Glimmer of Air
 			[201359] = true, -- Glimmer of Earth
-			[201360] = true, -- Glimmer of Order
-
+			[201360] = true -- Glimmer of Order
 		}
 	},
 	["Special"] = {
@@ -739,7 +738,7 @@ db.Filters = {
 			-- ID  = true,		--Item name
 			[204276] = true, -- Untapped Forbidden Knowledge
 			[202196] = true, -- Zskera Vault Key
-			[204439] = true, -- Research Chest Key
+			[204439] = true -- Research Chest Key
 		}
 	},
 	["Toys"] = {
@@ -751,7 +750,7 @@ db.Filters = {
 			[203708] = true, -- Conch Whistle
 			[204405] = true, -- Stuffed Bear
 			[205686] = true, -- Clacking claw
-			[202712] = true, -- Rubber Fish
+			[202712] = true -- Rubber Fish
 		}
 	},
 	["Combine"] = {
@@ -771,7 +770,6 @@ db.Filters = {
 			[204078] = true, -- Aspect's Shadowflame Crest Fragment
 			[204077] = true, -- Wyrm's Shadowflame Crest Fragment
 			[204076] = true, -- Drake's Shadowflame Crest Fragment
-			[206009] = true, -- Quroboros Tablet
 			[204363] = true, -- Particularly Ordinary Egg
 			[204717] = true, -- Splintered Spark of Shadowflame
 			[206014] = true, -- Ouroboros Tablet
@@ -783,7 +781,7 @@ db.Filters = {
 			[411665] = true, -- Recover designs
 			[206012] = true, -- Designs of Mind
 			[206010] = true, -- Designs of the flesh
-			[209419] = true, -- Charred Elemental Remains
+			[209419] = true -- Charred Elemental Remains
 		}
 	},
 	["Stone"] = {
@@ -822,7 +820,7 @@ db.Filters = {
 			[204014] = true, -- Sparkling mana Stone
 			[204000] = true, -- Storm infused Stone
 			[204015] = true, -- Swirling Mojo Stone
-			[204020] = true, -- Wild spirit Stone
+			[204020] = true -- Wild spirit Stone
 		}
 	},
 	["Artisan"] = {
@@ -831,7 +829,7 @@ db.Filters = {
 		title = "Artisan",
 		items = {
 			-- ID,	--Item name
-			[203417] = true, -- Razor-sharp Animal Bone
+			[203417] = true -- Razor-sharp Animal Bone
 		}
 	},
 	["Contract"] = {
@@ -840,7 +838,7 @@ db.Filters = {
 		title = "Contract",
 		items = {
 			-- ID,	--Item name
-			[204992] = true, -- Contract Loamm
+			[204992] = true -- Contract Loamm
 		}
 	},
 	["Enhancements"] = {
@@ -874,20 +872,7 @@ db.Filters = {
 			[198165] = true, -- Endless Stack of Needles 3
 			[198160] = true, -- Completely Safe Rockets 1
 			[198161] = true, -- Completely Safe Rockets 2
-			[198162] = true, -- Completely Safe Rockets 3
-
-		}
-	},
-	["Tools"] = {
-		uiName = "Bears " .. Expansion .. " Tools",
-		uiDesc = "Tools used in " .. Expansion,
-		title = "Tools",
-		items = {
-			-- ID    = true,    --Item name
-			[191294] = true, -- Small Expedition Shovel
-			[191304] = true, -- Sturdy Expedition Shovel
-			[199696] = true, -- Iskaaran Ice Axe ( used for ice fishing )
-			[15138] = true, -- Onyxia Scale Cloak ( For shadowflame chest )
+			[198162] = true -- Completely Safe Rockets 3
 		}
 	},
 	["Currency"] = {
@@ -905,7 +890,7 @@ db.Filters = {
 			[207002] = true, -- Encapsulated Destiny
 			[207030] = true, -- Dilated Time Capsule
 			[207026] = true, -- Dreamsurge Coalescence
-			[211376] = true, -- Seedbloom
+			[211376] = true -- Seedbloom
 		}
 	},
 	["Repair"] = {
@@ -914,7 +899,7 @@ db.Filters = {
 		title = "Repair",
 		items = {
 			-- ID    = true,    --Item name
-			[49040] = true,		-- Jeeves
+			[49040] = true -- Jeeves
 		}
 	},
 	["Mount"] = {
@@ -924,15 +909,14 @@ db.Filters = {
 		items = {
 			-- ID    = true,    --Item name
 			-- FOR Divine Kiss of Ohn'ahra Mount
-			[201929] = true, 	-- Stolen Breath of Ohn'ahra
-			[201323] = true,	-- Essence of Awakening
-			[191507] = true,	-- Exultant Incense
-
+			[201929] = true, -- Stolen Breath of Ohn'ahra
+			[201323] = true, -- Essence of Awakening
+			[191507] = true, -- Exultant Incense
 			-- FOR Lizi's Reins Mount
-			[192615] = true, 	-- Flourescent Fluid
-			[192658] = true,	-- High-Fiber Leaf
-			[192636] = true,	-- Woolly Mountain Pelt
-			[200598] = true,	-- Meluun's Green Curry
+			[192615] = true, -- Flourescent Fluid
+			[192658] = true, -- High-Fiber Leaf
+			[192636] = true, -- Woolly Mountain Pelt
+			[200598] = true -- Meluun's Green Curry
 		}
 	},
 	["Runes"] = {
@@ -941,7 +925,7 @@ db.Filters = {
 		title = "Runes",
 		items = {
 			-- [ID]  = true,	--Item name
-			[204860] = true,	-- Vantus rune: Abeerrus Crucible
+			[204860] = true -- Vantus rune: Abeerrus Crucible
 		}
 	}
 }
