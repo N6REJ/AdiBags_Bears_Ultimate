@@ -541,6 +541,7 @@ db.Filters = {
 			[210231] = true, -- Everburning Core
 			[210228] = true, -- Pure Dream Water
 			[210757] = true, -- Scales of Remorse
+			[2026] = true, -- Dragon Isles Tailoring Knowledge
 		}
 	},
 	["Tools"] = {
