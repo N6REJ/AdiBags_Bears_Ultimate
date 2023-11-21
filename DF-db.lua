@@ -847,7 +847,8 @@ db.Filters = {
 			[204014] = true, -- Sparkling mana Stone
 			[204000] = true, -- Storm infused Stone
 			[204015] = true, -- Swirling Mojo Stone
-			[204020] = true -- Wild spirit Stone
+			[204020] = true, -- Wild spirit Stone
+			[208212] = true, -- Dreaming Essence
 		}
 	},
 	["Artisan"] = {
@@ -865,7 +866,9 @@ db.Filters = {
 		title = "Contract",
 		items = {
 			-- ID,	--Item name
-			[204992] = true -- Contract Loamm
+			[204992] = true, -- Contract Loamm
+			[210244] = true, -- Contract: Dream Wardens
+			[198505] = true, -- Contract: Artisan's Consortium
 		}
 	},
 	["Enhancements"] = {
@@ -899,7 +902,9 @@ db.Filters = {
 			[198165] = true, -- Endless Stack of Needles 3
 			[198160] = true, -- Completely Safe Rockets 1
 			[198161] = true, -- Completely Safe Rockets 2
-			[198162] = true -- Completely Safe Rockets 3
+			[198162] = true, -- Completely Safe Rockets 3
+			[211495] = true, -- Dreambound Augment Rune
+			[201325] = true, -- Draconic Augment Rune
 		}
 	},
 	["Currency"] = {
@@ -918,15 +923,6 @@ db.Filters = {
 			[207030] = true, -- Dilated Time Capsule
 			[207026] = true, -- Dreamsurge Coalescence
 			[211376] = true -- Seedbloom
-		}
-	},
-	["Repair"] = {
-		uiName = "Bears " .. Expansion .. "Special Repair",
-		uiDesc = "Special Repair used in " .. Expansion,
-		title = "Repair",
-		items = {
-			-- ID    = true,    --Item name
-			[49040] = true -- Jeeves
 		}
 	},
 	["Mount"] = {

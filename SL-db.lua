@@ -25,6 +25,15 @@ db.Filters = {
 			-- [ID]  = true,	--Item name
 			[181468] = true,	-- Veiled Augment Runes
 		}
+	},
+	["Repair"] = {
+		uiName = "Bears " .. Expansion .. "Special Repair",
+		uiDesc = "Special Repair used in " .. Expansion,
+		title = "Repair",
+		items = {
+			-- ID    = true,    --Item name
+			[49040] = true -- Jeeves
+		}
 	}
 }
 
