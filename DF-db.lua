@@ -952,7 +952,8 @@ db.Filters = {
 		title = "Runes",
 		items = {
 			-- [ID]  = true,	--Item name
-			[204860] = true -- Vantus rune: Abeerrus Crucible
+			[204860] = true, -- Vantus rune: Abeerrus Crucible
+			[425954] = true, -- Vantus Rune: Amirdrassil, the Dream's Hope
 		}
 	}
 }
