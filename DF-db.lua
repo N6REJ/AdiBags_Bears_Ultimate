@@ -729,7 +729,11 @@ db.Filters = {
 			[205216] = true, -- Gently Jostled Jewels
 			[205214] = true, -- Snubbed Snail Shells
 			-- Dreamsurge Turn_In
-			[210776] = true -- Lesser Dream Infusion
+			[210776] = true, -- Lesser Dream Infusion
+			[211389] = true, -- Cache of Overblooming Treasures
+			[211413] = true, -- Budding Dreamtrove
+			[211414] = true, -- Blossoming Dreamtrove
+			[211411] = true, -- Sprouting Dreamtrove
 		}
 	},
 	["Trinket"] = {
