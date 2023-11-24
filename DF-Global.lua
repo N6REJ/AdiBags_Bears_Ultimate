@@ -26,7 +26,6 @@ db.Filters = {
             [190456] = true, -- Artisan's Mettle
             [201405] = true, -- Tuft of Primal Wool -- Used by many professions
             [201406] = true, -- Glowing Titan Orb   -- Used by many professions
-            [190453] = true, -- Spark of Ingenuity
             [199197] = true, -- Bottled Essence
             [190455] = true, -- Concentrated Primal Focus
             [201400] = true, -- Aquatic Maw         -- Used by blacksmith and leatherworking
@@ -41,6 +40,30 @@ db.Filters = {
             [204682] = true, -- Enchanted Wyrm's Shadowflame Crest
             [204681] = true, -- Enchanted Whelpling's Shadowflame Crest
             [204440] = true, -- Spark of Shadowflame
+            [190453] = true, -- Spark of Ingenuity
+            [204717] = true, -- Splintered Spark of Shadowflame
+            [208396] = true, -- Splintered Spark of Dreams
+            [206959] = true, -- Spark of Dreams
+        }
+    },
+    ["Sparks"] = {
+        uiName = "Bears " .. Expansion .. " Sparks & crests",
+        uiDesc = "Sparks & crests from " .. Expansion,
+        title = "Sparks",
+        items = {
+            -- ID  = true,		--Item name
+            [204195] = true, -- Drake's Shadowflame Crest
+            [204193] = true, -- Whelpling's Shadowflame Crest
+            [204697] = true, -- Enchanted Aspect's Shadowflame Crest
+            [204196] = true, -- Wyrm's Shadowflame Crest
+            [204194] = true, -- Aspect's Shadowflame Crest
+            [204682] = true, -- Enchanted Wyrm's Shadowflame Crest
+            [204681] = true, -- Enchanted Whelpling's Shadowflame Crest
+            [204440] = true, -- Spark of Shadowflame
+            [190453] = true, -- Spark of Ingenuity
+            [204717] = true, -- Splintered Spark of Shadowflame
+            [208396] = true, -- Splintered Spark of Dreams
+            [206959] = true, -- Spark of Dreams
         }
     },
     ["Finishing_Reagents"] = {
