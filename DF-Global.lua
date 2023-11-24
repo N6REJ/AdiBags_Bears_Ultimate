@@ -30,20 +30,6 @@ db.Filters = {
             [190455] = true, -- Concentrated Primal Focus
             [201400] = true, -- Aquatic Maw         -- Used by blacksmith and leatherworking
             [204217] = true, -- Unstable Elementium
-
-            -- Zaralek Cavern
-            [204195] = true, -- Drake's Shadowflame Crest
-            [204193] = true, -- Whelpling's Shadowflame Crest
-            [204697] = true, -- Enchanted Aspect's Shadowflame Crest
-            [204196] = true, -- Wyrm's Shadowflame Crest
-            [204194] = true, -- Aspect's Shadowflame Crest
-            [204682] = true, -- Enchanted Wyrm's Shadowflame Crest
-            [204681] = true, -- Enchanted Whelpling's Shadowflame Crest
-            [204440] = true, -- Spark of Shadowflame
-            [190453] = true, -- Spark of Ingenuity
-            [204717] = true, -- Splintered Spark of Shadowflame
-            [208396] = true, -- Splintered Spark of Dreams
-            [206959] = true, -- Spark of Dreams
         }
     },
     ["Sparks"] = {
