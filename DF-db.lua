@@ -734,6 +734,7 @@ db.Filters = {
 			[211413] = true, -- Budding Dreamtrove
 			[211414] = true, -- Blossoming Dreamtrove
 			[211411] = true, -- Sprouting Dreamtrove
+			[210920] = true, -- Gift of Amirdrassil
 		}
 	},
 	["Trinket"] = {
